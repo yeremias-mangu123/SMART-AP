@@ -1,0 +1,5858 @@
+{
+  "name": "CubiCasa5K / sample_0006 / uniform common_wood_door",
+  "dataset_source": {
+    "name": "CubiCasa5K",
+    "url": "https://zenodo.org/records/2613548",
+    "license": "CC BY-NC 4.0",
+    "source_file": "scratch/public_datasets/cubicasa_subset/sample_0006/model.svg"
+  },
+  "floor_plan": {
+    "selected_frequency_ghz": 2.4,
+    "floor_height_m": 3.0,
+    "bounds": {
+      "min_x": 7.898,
+      "min_y": 4.323,
+      "max_x": 38.135,
+      "max_y": 18.102
+    }
+  },
+  "walls": [
+    {
+      "id": "wall_1",
+      "points": [
+        [
+          23.929,
+          12.035
+        ],
+        [
+          16.943,
+          12.035
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.516,
+        "5": 3.886,
+        "6": 3.943
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 36.149,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_2",
+      "points": [
+        [
+          16.943,
+          12.035
+        ],
+        [
+          16.943,
+          10.53
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.549,
+        "5": 4.184,
+        "6": 5.394
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 44.493,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_3",
+      "points": [
+        [
+          16.943,
+          10.53
+        ],
+        [
+          16.952,
+          10.53
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.499,
+        "5": 4.899,
+        "6": 6.426
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 43.205,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_4",
+      "points": [
+        [
+          16.952,
+          10.53
+        ],
+        [
+          16.963,
+          4.323
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.388,
+        "5": 4.005,
+        "6": 5.076
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 38.506,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_5",
+      "points": [
+        [
+          16.963,
+          4.323
+        ],
+        [
+          23.929,
+          4.323
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.432,
+        "5": 2.896,
+        "6": 4.905
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 35.522,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_6",
+      "points": [
+        [
+          23.929,
+          4.323
+        ],
+        [
+          23.929,
+          12.035
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.873,
+        "5": 4.198,
+        "6": 3.623
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 45.141,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_7",
+      "points": [
+        [
+          22.653,
+          12.255
+        ],
+        [
+          23.929,
+          12.255
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.385,
+        "5": 5.095,
+        "6": 4.79
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 35.033,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_8",
+      "points": [
+        [
+          23.929,
+          12.255
+        ],
+        [
+          23.929,
+          12.357
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.191,
+        "5": 4.687,
+        "6": 4.596
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 39.707,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_9",
+      "points": [
+        [
+          23.929,
+          12.357
+        ],
+        [
+          32.306,
+          12.357
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.613,
+        "5": 3.514,
+        "6": 4.063
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 45.328,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_10",
+      "points": [
+        [
+          32.306,
+          12.357
+        ],
+        [
+          32.306,
+          14.528
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.189,
+        "5": 4.245,
+        "6": 4.658
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 38.381,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_11",
+      "points": [
+        [
+          32.306,
+          14.528
+        ],
+        [
+          23.912,
+          14.528
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.921,
+        "5": 3.065,
+        "6": 5.178
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 37.31,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_12",
+      "points": [
+        [
+          23.912,
+          14.528
+        ],
+        [
+          23.912,
+          17.115
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.364,
+        "5": 3.112,
+        "6": 4.119
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 44.381,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_13",
+      "points": [
+        [
+          23.912,
+          17.115
+        ],
+        [
+          23.216,
+          17.115
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.293,
+        "5": 3.502,
+        "6": 4.77
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 45.308,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_14",
+      "points": [
+        [
+          23.216,
+          17.115
+        ],
+        [
+          23.216,
+          18.102
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.883,
+        "5": 4.995,
+        "6": 4.031
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 40.695,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_15",
+      "points": [
+        [
+          23.216,
+          18.102
+        ],
+        [
+          19.844,
+          18.102
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.788,
+        "5": 4.676,
+        "6": 6.47
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 39.338,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_16",
+      "points": [
+        [
+          19.844,
+          18.102
+        ],
+        [
+          19.844,
+          15.292
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.772,
+        "5": 3.654,
+        "6": 3.999
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 43.584,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_17",
+      "points": [
+        [
+          19.844,
+          15.292
+        ],
+        [
+          16.949,
+          15.292
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.88,
+        "5": 2.873,
+        "6": 4.736
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 34.158,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_18",
+      "points": [
+        [
+          16.949,
+          15.292
+        ],
+        [
+          16.949,
+          14.243
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.429,
+        "5": 2.892,
+        "6": 5.2
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 37.524,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_19",
+      "points": [
+        [
+          16.949,
+          14.243
+        ],
+        [
+          16.943,
+          14.243
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.231,
+        "5": 4.908,
+        "6": 5.116
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 36.667,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_20",
+      "points": [
+        [
+          16.943,
+          14.243
+        ],
+        [
+          16.943,
+          12.035
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.623,
+        "5": 3.781,
+        "6": 5.443
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 40.645,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_21",
+      "points": [
+        [
+          16.943,
+          12.035
+        ],
+        [
+          22.653,
+          12.035
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.428,
+        "5": 4.431,
+        "6": 6.211
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 34.595,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_22",
+      "points": [
+        [
+          22.653,
+          12.035
+        ],
+        [
+          22.653,
+          12.255
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.528,
+        "5": 3.908,
+        "6": 5.371
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 45.71,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_23",
+      "points": [
+        [
+          16.943,
+          14.243
+        ],
+        [
+          16.709,
+          14.243
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.873,
+        "5": 3.257,
+        "6": 4.537
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 35.078,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_24",
+      "points": [
+        [
+          16.709,
+          14.243
+        ],
+        [
+          16.709,
+          18.102
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.379,
+        "5": 4.034,
+        "6": 5.616
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 40.007,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_25",
+      "points": [
+        [
+          16.709,
+          18.102
+        ],
+        [
+          7.898,
+          18.102
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.407,
+        "5": 4.162,
+        "6": 6.056
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 37.202,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_26",
+      "points": [
+        [
+          7.898,
+          18.102
+        ],
+        [
+          7.898,
+          10.53
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.688,
+        "5": 3.139,
+        "6": 5.465
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 43.476,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_27",
+      "points": [
+        [
+          7.898,
+          10.53
+        ],
+        [
+          16.943,
+          10.53
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.566,
+        "5": 3.924,
+        "6": 4.397
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 42.667,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_28",
+      "points": [
+        [
+          16.943,
+          10.53
+        ],
+        [
+          16.943,
+          14.243
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.541,
+        "5": 4.719,
+        "6": 5.237
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 36.684,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_29",
+      "points": [
+        [
+          16.712,
+          10.29
+        ],
+        [
+          7.898,
+          10.29
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.766,
+        "5": 3.59,
+        "6": 4.805
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 35.304,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_30",
+      "points": [
+        [
+          7.898,
+          10.29
+        ],
+        [
+          7.898,
+          4.323
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.606,
+        "5": 3.421,
+        "6": 4.677
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 44.804,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_31",
+      "points": [
+        [
+          7.898,
+          4.323
+        ],
+        [
+          16.712,
+          4.323
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.168,
+        "5": 3.289,
+        "6": 4.061
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 41.784,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_32",
+      "points": [
+        [
+          16.712,
+          4.323
+        ],
+        [
+          16.712,
+          10.29
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.853,
+        "5": 3.435,
+        "6": 5.893
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 36.324,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_33",
+      "points": [
+        [
+          34.655,
+          11.245
+        ],
+        [
+          32.306,
+          11.245
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.803,
+        "5": 4.0,
+        "6": 3.949
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 35.948,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_34",
+      "points": [
+        [
+          32.306,
+          11.245
+        ],
+        [
+          32.306,
+          12.157
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.873,
+        "5": 4.034,
+        "6": 6.075
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 34.05,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_35",
+      "points": [
+        [
+          32.306,
+          12.157
+        ],
+        [
+          29.029,
+          12.157
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.837,
+        "5": 3.929,
+        "6": 3.563
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 43.67,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_36",
+      "points": [
+        [
+          29.029,
+          12.157
+        ],
+        [
+          29.029,
+          4.323
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.41,
+        "5": 3.749,
+        "6": 6.166
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 41.494,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_37",
+      "points": [
+        [
+          29.029,
+          4.323
+        ],
+        [
+          34.655,
+          4.323
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.549,
+        "5": 3.616,
+        "6": 6.128
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 36.882,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_38",
+      "points": [
+        [
+          34.655,
+          4.323
+        ],
+        [
+          34.655,
+          11.245
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.197,
+        "5": 4.363,
+        "6": 4.318
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 35.714,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_39",
+      "points": [
+        [
+          28.809,
+          12.157
+        ],
+        [
+          24.311,
+          12.157
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.359,
+        "5": 3.294,
+        "6": 6.405
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 45.707,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_40",
+      "points": [
+        [
+          24.311,
+          12.157
+        ],
+        [
+          24.311,
+          4.323
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.994,
+        "5": 5.067,
+        "6": 6.055
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 40.649,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_41",
+      "points": [
+        [
+          24.311,
+          4.323
+        ],
+        [
+          28.809,
+          4.323
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.233,
+        "5": 4.572,
+        "6": 6.011
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 41.231,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_42",
+      "points": [
+        [
+          28.809,
+          4.323
+        ],
+        [
+          28.809,
+          12.157
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.38,
+        "5": 3.266,
+        "6": 4.919
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 40.552,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_43",
+      "points": [
+        [
+          38.135,
+          13.927
+        ],
+        [
+          37.275,
+          13.927
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.194,
+        "5": 4.388,
+        "6": 4.629
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 45.249,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_44",
+      "points": [
+        [
+          37.275,
+          13.927
+        ],
+        [
+          37.275,
+          14.528
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.585,
+        "5": 4.939,
+        "6": 6.071
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 41.065,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_45",
+      "points": [
+        [
+          37.275,
+          14.528
+        ],
+        [
+          32.526,
+          14.528
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.722,
+        "5": 3.313,
+        "6": 6.274
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 40.77,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_46",
+      "points": [
+        [
+          32.526,
+          14.528
+        ],
+        [
+          32.526,
+          11.465
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.426,
+        "5": 5.018,
+        "6": 4.601
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 43.238,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_47",
+      "points": [
+        [
+          32.526,
+          11.465
+        ],
+        [
+          34.903,
+          11.465
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.424,
+        "5": 5.11,
+        "6": 4.083
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 45.346,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_48",
+      "points": [
+        [
+          34.903,
+          11.465
+        ],
+        [
+          34.903,
+          7.612
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.575,
+        "5": 3.431,
+        "6": 6.092
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 35.462,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_49",
+      "points": [
+        [
+          34.903,
+          7.612
+        ],
+        [
+          38.135,
+          7.612
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.308,
+        "5": 4.819,
+        "6": 5.773
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 45.177,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_50",
+      "points": [
+        [
+          38.135,
+          7.612
+        ],
+        [
+          38.135,
+          13.927
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.231,
+        "5": 5.056,
+        "6": 5.235
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 45.305,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_51",
+      "points": [
+        [
+          37.974,
+          7.342
+        ],
+        [
+          34.966,
+          7.342
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.158,
+        "5": 4.452,
+        "6": 5.232
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 45.778,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_52",
+      "points": [
+        [
+          34.966,
+          7.342
+        ],
+        [
+          34.966,
+          4.323
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.073,
+        "5": 3.13,
+        "6": 5.188
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 44.039,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_53",
+      "points": [
+        [
+          34.966,
+          4.323
+        ],
+        [
+          37.974,
+          4.323
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.562,
+        "5": 3.862,
+        "6": 5.813
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 41.486,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_54",
+      "points": [
+        [
+          37.974,
+          4.323
+        ],
+        [
+          37.974,
+          7.342
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.625,
+        "5": 4.367,
+        "6": 3.833
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 34.07,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_55",
+      "points": [
+        [
+          19.604,
+          18.102
+        ],
+        [
+          16.949,
+          18.102
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.358,
+        "5": 4.486,
+        "6": 3.527
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 37.06,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_56",
+      "points": [
+        [
+          16.949,
+          18.102
+        ],
+        [
+          16.949,
+          15.532
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 3.398,
+        "5": 3.909,
+        "6": 5.962
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 38.952,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_57",
+      "points": [
+        [
+          16.949,
+          15.532
+        ],
+        [
+          19.604,
+          15.532
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.118,
+        "5": 3.418,
+        "6": 3.926
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 40.291,
+      "randomized_profile": "common_wood_door"
+    },
+    {
+      "id": "wall_58",
+      "points": [
+        [
+          19.604,
+          15.532
+        ],
+        [
+          19.604,
+          18.102
+        ]
+      ],
+      "material_id": "common_wood_door",
+      "attenuation_db": {
+        "2.4": 2.183,
+        "5": 4.09,
+        "6": 6.358
+      },
+      "material_name": "Common wooden door",
+      "thickness_mm": 39.389,
+      "randomized_profile": "common_wood_door"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "room_1",
+      "name": "Other 1",
+      "type": "other",
+      "polygon": [
+        {
+          "x": 23.929,
+          "y": 12.035
+        },
+        {
+          "x": 16.943,
+          "y": 12.035
+        },
+        {
+          "x": 16.943,
+          "y": 10.53
+        },
+        {
+          "x": 16.952,
+          "y": 10.53
+        },
+        {
+          "x": 16.963,
+          "y": 4.323
+        },
+        {
+          "x": 23.929,
+          "y": 4.323
+        }
+      ],
+      "area_m2": 53.786,
+      "centroid": {
+        "x": 20.441832210186984,
+        "y": 8.180915783820485
+      },
+      "clients": 6,
+      "priority": 1.206,
+      "coverage_target_dbm": -64.8,
+      "excluded": false
+    },
+    {
+      "id": "room_2",
+      "name": "Other 2",
+      "type": "other",
+      "polygon": [
+        {
+          "x": 22.653,
+          "y": 12.255
+        },
+        {
+          "x": 23.929,
+          "y": 12.255
+        },
+        {
+          "x": 23.929,
+          "y": 12.357
+        },
+        {
+          "x": 32.306,
+          "y": 12.357
+        },
+        {
+          "x": 32.306,
+          "y": 14.528
+        },
+        {
+          "x": 23.912,
+          "y": 14.528
+        },
+        {
+          "x": 23.912,
+          "y": 17.115
+        },
+        {
+          "x": 23.216,
+          "y": 17.115
+        },
+        {
+          "x": 23.216,
+          "y": 18.102
+        },
+        {
+          "x": 19.844,
+          "y": 18.102
+        },
+        {
+          "x": 19.844,
+          "y": 15.292
+        },
+        {
+          "x": 16.949,
+          "y": 15.292
+        },
+        {
+          "x": 16.949,
+          "y": 14.243
+        },
+        {
+          "x": 16.943,
+          "y": 14.243
+        },
+        {
+          "x": 16.943,
+          "y": 12.035
+        },
+        {
+          "x": 22.653,
+          "y": 12.035
+        }
+      ],
+      "area_m2": 51.384,
+      "centroid": {
+        "x": 23.417656672247865,
+        "y": 14.215229804874076
+      },
+      "clients": 6,
+      "priority": 1.012,
+      "coverage_target_dbm": -68.2,
+      "excluded": false
+    },
+    {
+      "id": "room_3",
+      "name": "Lobby 3",
+      "type": "lobby",
+      "polygon": [
+        {
+          "x": 16.943,
+          "y": 14.243
+        },
+        {
+          "x": 16.709,
+          "y": 14.243
+        },
+        {
+          "x": 16.709,
+          "y": 18.102
+        },
+        {
+          "x": 7.898,
+          "y": 18.102
+        },
+        {
+          "x": 7.898,
+          "y": 10.53
+        },
+        {
+          "x": 16.943,
+          "y": 10.53
+        }
+      ],
+      "area_m2": 67.586,
+      "centroid": {
+        "x": 12.361638570263956,
+        "y": 14.291195495561242
+      },
+      "clients": 11,
+      "priority": 1.863,
+      "coverage_target_dbm": -66.8,
+      "excluded": false
+    },
+    {
+      "id": "room_4",
+      "name": "Office 4",
+      "type": "office",
+      "polygon": [
+        {
+          "x": 16.712,
+          "y": 10.29
+        },
+        {
+          "x": 7.898,
+          "y": 10.29
+        },
+        {
+          "x": 7.898,
+          "y": 4.323
+        },
+        {
+          "x": 16.712,
+          "y": 4.323
+        }
+      ],
+      "area_m2": 52.593,
+      "centroid": {
+        "x": 12.305,
+        "y": 7.306499999999998
+      },
+      "clients": 5,
+      "priority": 0.858,
+      "coverage_target_dbm": -68.1,
+      "excluded": false
+    },
+    {
+      "id": "room_5",
+      "name": "Other 5",
+      "type": "other",
+      "polygon": [
+        {
+          "x": 34.655,
+          "y": 11.245
+        },
+        {
+          "x": 32.306,
+          "y": 11.245
+        },
+        {
+          "x": 32.306,
+          "y": 12.157
+        },
+        {
+          "x": 29.029,
+          "y": 12.157
+        },
+        {
+          "x": 29.029,
+          "y": 4.323
+        },
+        {
+          "x": 34.655,
+          "y": 4.323
+        }
+      ],
+      "area_m2": 41.932,
+      "centroid": {
+        "x": 31.758289326409965,
+        "y": 8.063178125544631
+      },
+      "clients": 4,
+      "priority": 1.167,
+      "coverage_target_dbm": -65.0,
+      "excluded": false
+    },
+    {
+      "id": "room_6",
+      "name": "Other 6",
+      "type": "other",
+      "polygon": [
+        {
+          "x": 28.809,
+          "y": 12.157
+        },
+        {
+          "x": 24.311,
+          "y": 12.157
+        },
+        {
+          "x": 24.311,
+          "y": 4.323
+        },
+        {
+          "x": 28.809,
+          "y": 4.323
+        }
+      ],
+      "area_m2": 35.237,
+      "centroid": {
+        "x": 26.56000000000001,
+        "y": 8.240000000000004
+      },
+      "clients": 5,
+      "priority": 1.051,
+      "coverage_target_dbm": -66.6,
+      "excluded": false
+    },
+    {
+      "id": "room_7",
+      "name": "Restroom 7",
+      "type": "restroom",
+      "polygon": [
+        {
+          "x": 38.135,
+          "y": 13.927
+        },
+        {
+          "x": 37.275,
+          "y": 13.927
+        },
+        {
+          "x": 37.275,
+          "y": 14.528
+        },
+        {
+          "x": 32.526,
+          "y": 14.528
+        },
+        {
+          "x": 32.526,
+          "y": 11.465
+        },
+        {
+          "x": 34.903,
+          "y": 11.465
+        },
+        {
+          "x": 34.903,
+          "y": 7.612
+        },
+        {
+          "x": 38.135,
+          "y": 7.612
+        }
+      ],
+      "area_m2": 29.116,
+      "centroid": {
+        "x": 35.796662761451024,
+        "y": 11.495683809620997
+      },
+      "clients": 1,
+      "priority": 0.55,
+      "coverage_target_dbm": -70.3,
+      "excluded": false
+    },
+    {
+      "id": "room_8",
+      "name": "Other 8",
+      "type": "other",
+      "polygon": [
+        {
+          "x": 37.974,
+          "y": 7.342
+        },
+        {
+          "x": 34.966,
+          "y": 7.342
+        },
+        {
+          "x": 34.966,
+          "y": 4.323
+        },
+        {
+          "x": 37.974,
+          "y": 4.323
+        }
+      ],
+      "area_m2": 9.081,
+      "centroid": {
+        "x": 36.46999999999999,
+        "y": 5.832499999999994
+      },
+      "clients": 1,
+      "priority": 1.19,
+      "coverage_target_dbm": -68.6,
+      "excluded": false
+    },
+    {
+      "id": "room_9",
+      "name": "Restroom 9",
+      "type": "restroom",
+      "polygon": [
+        {
+          "x": 19.604,
+          "y": 18.102
+        },
+        {
+          "x": 16.949,
+          "y": 18.102
+        },
+        {
+          "x": 16.949,
+          "y": 15.532
+        },
+        {
+          "x": 19.604,
+          "y": 15.532
+        }
+      ],
+      "area_m2": 6.823,
+      "centroid": {
+        "x": 18.276500000000045,
+        "y": 16.81700000000004
+      },
+      "clients": 1,
+      "priority": 0.5,
+      "coverage_target_dbm": -72.2,
+      "excluded": false
+    }
+  ],
+  "constraints": {
+    "observation_version": 4,
+    "max_candidates": 160,
+    "max_candidates_per_room": 8,
+    "max_ap_count": 16,
+    "min_ap_count": 2,
+    "min_ap_separation_m": 5.0,
+    "floor_sample_step_m": 1.2,
+    "max_floor_samples": 320,
+    "max_episode_steps": 32,
+    "room_sample_step_m": 1.2,
+    "max_samples_per_room": 20,
+    "comfortable_ap_spacing_m": 10.0
+  },
+  "targets": {
+    "default_coverage_dbm": -67,
+    "target_sample_coverage_ratio": 0.9,
+    "min_sinr_db": 15.0,
+    "interference_sinr_db": 20.0,
+    "target_acceptable_coverage_ratio": 0.95,
+    "min_coverage_ratio": 0.85,
+    "min_capacity_ratio": 0.95,
+    "max_weak_room_count": 1,
+    "target_sinr_coverage_ratio": 0.85,
+    "target_floor_coverage_ratio": 0.8,
+    "target_floor_sinr_coverage_ratio": 0.8,
+    "max_overlap_ratio": 0.25
+  },
+  "propagation_model": {
+    "profile": "randomized_calibrated",
+    "bands": {
+      "2.4": {
+        "distance_loss_coefficient": 31.616,
+        "shadow_margin_db": 8.226,
+        "wall_loss_multiplier": 1.08
+      },
+      "5": {
+        "distance_loss_coefficient": 33.925,
+        "shadow_margin_db": 11.153,
+        "wall_loss_multiplier": 1.12
+      },
+      "6": {
+        "distance_loss_coefficient": 36.495,
+        "shadow_margin_db": 9.1,
+        "wall_loss_multiplier": 1.15
+      }
+    }
+  },
+  "candidate_positions": [
+    {
+      "id": "cand_17",
+      "x": 12.362,
+      "y": 14.291,
+      "z": 2.75,
+      "source": "room_centroid",
+      "room_id": "room_3",
+      "room_name": "Lobby 3",
+      "room_type": "lobby",
+      "min_wall_distance_m": 3.761,
+      "nearest_wall_id": "wall_27",
+      "score": 4.8563
+    },
+    {
+      "id": "cand_18",
+      "x": 11.273,
+      "y": 13.905,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_3",
+      "room_name": "Lobby 3",
+      "room_type": "lobby",
+      "min_wall_distance_m": 3.375,
+      "nearest_wall_id": "wall_26",
+      "score": 4.8563
+    },
+    {
+      "id": "cand_19",
+      "x": 11.273,
+      "y": 14.655,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_3",
+      "room_name": "Lobby 3",
+      "room_type": "lobby",
+      "min_wall_distance_m": 3.375,
+      "nearest_wall_id": "wall_26",
+      "score": 4.8563
+    },
+    {
+      "id": "cand_20",
+      "x": 12.023,
+      "y": 13.905,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_3",
+      "room_name": "Lobby 3",
+      "room_type": "lobby",
+      "min_wall_distance_m": 3.375,
+      "nearest_wall_id": "wall_27",
+      "score": 4.8563
+    },
+    {
+      "id": "cand_21",
+      "x": 12.023,
+      "y": 14.655,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_3",
+      "room_name": "Lobby 3",
+      "room_type": "lobby",
+      "min_wall_distance_m": 3.447,
+      "nearest_wall_id": "wall_25",
+      "score": 4.8563
+    },
+    {
+      "id": "cand_22",
+      "x": 12.773,
+      "y": 13.905,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_3",
+      "room_name": "Lobby 3",
+      "room_type": "lobby",
+      "min_wall_distance_m": 3.375,
+      "nearest_wall_id": "wall_27",
+      "score": 4.8563
+    },
+    {
+      "id": "cand_23",
+      "x": 12.773,
+      "y": 14.655,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_3",
+      "room_name": "Lobby 3",
+      "room_type": "lobby",
+      "min_wall_distance_m": 3.447,
+      "nearest_wall_id": "wall_25",
+      "score": 4.8563
+    },
+    {
+      "id": "cand_24",
+      "x": 13.523,
+      "y": 13.905,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_3",
+      "room_name": "Lobby 3",
+      "room_type": "lobby",
+      "min_wall_distance_m": 3.204,
+      "nearest_wall_id": "wall_23",
+      "score": 4.8563
+    },
+    {
+      "id": "cand_1",
+      "x": 20.442,
+      "y": 8.181,
+      "z": 2.75,
+      "source": "room_centroid",
+      "room_id": "room_1",
+      "room_name": "Other 1",
+      "room_type": "other",
+      "min_wall_distance_m": 3.486,
+      "nearest_wall_id": "wall_4",
+      "score": 2.5878
+    },
+    {
+      "id": "cand_2",
+      "x": 20.318,
+      "y": 7.698,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_1",
+      "room_name": "Other 1",
+      "room_type": "other",
+      "min_wall_distance_m": 3.361,
+      "nearest_wall_id": "wall_4",
+      "score": 2.5878
+    },
+    {
+      "id": "cand_3",
+      "x": 20.318,
+      "y": 8.448,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_1",
+      "room_name": "Other 1",
+      "room_type": "other",
+      "min_wall_distance_m": 3.362,
+      "nearest_wall_id": "wall_4",
+      "score": 2.5878
+    },
+    {
+      "id": "cand_4",
+      "x": 21.068,
+      "y": 7.698,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_1",
+      "room_name": "Other 1",
+      "room_type": "other",
+      "min_wall_distance_m": 2.861,
+      "nearest_wall_id": "wall_6",
+      "score": 2.567
+    },
+    {
+      "id": "cand_5",
+      "x": 21.068,
+      "y": 8.448,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_1",
+      "room_name": "Other 1",
+      "room_type": "other",
+      "min_wall_distance_m": 2.861,
+      "nearest_wall_id": "wall_6",
+      "score": 2.567
+    },
+    {
+      "id": "cand_6",
+      "x": 20.318,
+      "y": 9.198,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_1",
+      "room_name": "Other 1",
+      "room_type": "other",
+      "min_wall_distance_m": 2.837,
+      "nearest_wall_id": "wall_1",
+      "score": 2.5634
+    },
+    {
+      "id": "cand_7",
+      "x": 21.068,
+      "y": 9.198,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_1",
+      "room_name": "Other 1",
+      "room_type": "other",
+      "min_wall_distance_m": 2.837,
+      "nearest_wall_id": "wall_1",
+      "score": 2.5634
+    },
+    {
+      "id": "cand_8",
+      "x": 20.318,
+      "y": 6.948,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_1",
+      "room_name": "Other 1",
+      "room_type": "other",
+      "min_wall_distance_m": 2.625,
+      "nearest_wall_id": "wall_5",
+      "score": 2.5316
+    },
+    {
+      "id": "cand_33",
+      "x": 31.758,
+      "y": 8.063,
+      "z": 2.75,
+      "source": "room_centroid",
+      "room_id": "room_5",
+      "room_name": "Other 5",
+      "room_type": "other",
+      "min_wall_distance_m": 2.729,
+      "nearest_wall_id": "wall_36",
+      "score": 2.2592
+    },
+    {
+      "id": "cand_34",
+      "x": 31.654,
+      "y": 6.948,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_5",
+      "room_name": "Other 5",
+      "room_type": "other",
+      "min_wall_distance_m": 2.625,
+      "nearest_wall_id": "wall_36",
+      "score": 2.2436
+    },
+    {
+      "id": "cand_35",
+      "x": 31.654,
+      "y": 7.698,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_5",
+      "room_name": "Other 5",
+      "room_type": "other",
+      "min_wall_distance_m": 2.625,
+      "nearest_wall_id": "wall_36",
+      "score": 2.2436
+    },
+    {
+      "id": "cand_36",
+      "x": 31.654,
+      "y": 8.448,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_5",
+      "room_name": "Other 5",
+      "room_type": "other",
+      "min_wall_distance_m": 2.625,
+      "nearest_wall_id": "wall_36",
+      "score": 2.2436
+    },
+    {
+      "id": "cand_37",
+      "x": 32.404,
+      "y": 6.948,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_5",
+      "room_name": "Other 5",
+      "room_type": "other",
+      "min_wall_distance_m": 2.251,
+      "nearest_wall_id": "wall_38",
+      "score": 2.1875
+    },
+    {
+      "id": "cand_38",
+      "x": 32.404,
+      "y": 7.698,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_5",
+      "room_name": "Other 5",
+      "room_type": "other",
+      "min_wall_distance_m": 2.251,
+      "nearest_wall_id": "wall_38",
+      "score": 2.1875
+    },
+    {
+      "id": "cand_39",
+      "x": 32.404,
+      "y": 8.448,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_5",
+      "room_name": "Other 5",
+      "room_type": "other",
+      "min_wall_distance_m": 2.251,
+      "nearest_wall_id": "wall_38",
+      "score": 2.1875
+    },
+    {
+      "id": "cand_40",
+      "x": 31.654,
+      "y": 9.198,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_5",
+      "room_name": "Other 5",
+      "room_type": "other",
+      "min_wall_distance_m": 2.148,
+      "nearest_wall_id": "wall_33",
+      "score": 2.1721
+    },
+    {
+      "id": "cand_9",
+      "x": 21.818,
+      "y": 14.66,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_2",
+      "room_name": "Other 2",
+      "room_type": "other",
+      "min_wall_distance_m": 2.073,
+      "nearest_wall_id": "wall_16",
+      "score": 2.0726
+    },
+    {
+      "id": "cand_10",
+      "x": 21.818,
+      "y": 15.41,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_2",
+      "room_name": "Other 2",
+      "room_type": "other",
+      "min_wall_distance_m": 1.974,
+      "nearest_wall_id": "wall_16",
+      "score": 2.0578
+    },
+    {
+      "id": "cand_11",
+      "x": 21.818,
+      "y": 13.91,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_2",
+      "room_name": "Other 2",
+      "room_type": "other",
+      "min_wall_distance_m": 1.854,
+      "nearest_wall_id": "wall_7",
+      "score": 2.0398
+    },
+    {
+      "id": "cand_12",
+      "x": 21.068,
+      "y": 13.91,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_2",
+      "room_name": "Other 2",
+      "room_type": "other",
+      "min_wall_distance_m": 1.846,
+      "nearest_wall_id": "wall_16",
+      "score": 2.0386
+    },
+    {
+      "id": "cand_13",
+      "x": 21.818,
+      "y": 16.16,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_2",
+      "room_name": "Other 2",
+      "room_type": "other",
+      "min_wall_distance_m": 1.693,
+      "nearest_wall_id": "wall_13",
+      "score": 2.0157
+    },
+    {
+      "id": "cand_14",
+      "x": 22.568,
+      "y": 13.91,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_2",
+      "room_name": "Other 2",
+      "room_type": "other",
+      "min_wall_distance_m": 1.479,
+      "nearest_wall_id": "wall_11",
+      "score": 1.9836
+    },
+    {
+      "id": "cand_15",
+      "x": 20.318,
+      "y": 13.91,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_2",
+      "room_name": "Other 2",
+      "room_type": "other",
+      "min_wall_distance_m": 1.461,
+      "nearest_wall_id": "wall_16",
+      "score": 1.9809
+    },
+    {
+      "id": "cand_16",
+      "x": 18.818,
+      "y": 13.91,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_2",
+      "room_name": "Other 2",
+      "room_type": "other",
+      "min_wall_distance_m": 1.382,
+      "nearest_wall_id": "wall_17",
+      "score": 1.969
+    },
+    {
+      "id": "cand_25",
+      "x": 12.305,
+      "y": 7.306,
+      "z": 2.75,
+      "source": "room_centroid",
+      "room_id": "room_4",
+      "room_name": "Office 4",
+      "room_type": "office",
+      "min_wall_distance_m": 2.983,
+      "nearest_wall_id": "wall_31",
+      "score": 1.9407
+    },
+    {
+      "id": "cand_41",
+      "x": 26.56,
+      "y": 8.24,
+      "z": 2.75,
+      "source": "room_centroid",
+      "room_id": "room_6",
+      "room_name": "Other 6",
+      "room_type": "other",
+      "min_wall_distance_m": 2.249,
+      "nearest_wall_id": "wall_42",
+      "score": 1.927
+    },
+    {
+      "id": "cand_26",
+      "x": 10.523,
+      "y": 6.948,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Office 4",
+      "room_type": "office",
+      "min_wall_distance_m": 2.625,
+      "nearest_wall_id": "wall_30",
+      "score": 1.8869
+    },
+    {
+      "id": "cand_27",
+      "x": 11.273,
+      "y": 6.948,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Office 4",
+      "room_type": "office",
+      "min_wall_distance_m": 2.625,
+      "nearest_wall_id": "wall_31",
+      "score": 1.8869
+    },
+    {
+      "id": "cand_28",
+      "x": 12.023,
+      "y": 6.948,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Office 4",
+      "room_type": "office",
+      "min_wall_distance_m": 2.625,
+      "nearest_wall_id": "wall_31",
+      "score": 1.8869
+    },
+    {
+      "id": "cand_29",
+      "x": 12.773,
+      "y": 6.948,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Office 4",
+      "room_type": "office",
+      "min_wall_distance_m": 2.625,
+      "nearest_wall_id": "wall_31",
+      "score": 1.8869
+    },
+    {
+      "id": "cand_30",
+      "x": 13.523,
+      "y": 6.948,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Office 4",
+      "room_type": "office",
+      "min_wall_distance_m": 2.625,
+      "nearest_wall_id": "wall_31",
+      "score": 1.8869
+    },
+    {
+      "id": "cand_31",
+      "x": 10.523,
+      "y": 7.698,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Office 4",
+      "room_type": "office",
+      "min_wall_distance_m": 2.592,
+      "nearest_wall_id": "wall_29",
+      "score": 1.882
+    },
+    {
+      "id": "cand_32",
+      "x": 11.273,
+      "y": 7.698,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Office 4",
+      "room_type": "office",
+      "min_wall_distance_m": 2.592,
+      "nearest_wall_id": "wall_29",
+      "score": 1.882
+    },
+    {
+      "id": "cand_42",
+      "x": 26.186,
+      "y": 6.198,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_6",
+      "room_name": "Other 6",
+      "room_type": "other",
+      "min_wall_distance_m": 1.875,
+      "nearest_wall_id": "wall_40",
+      "score": 1.8709
+    },
+    {
+      "id": "cand_43",
+      "x": 26.186,
+      "y": 6.948,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_6",
+      "room_name": "Other 6",
+      "room_type": "other",
+      "min_wall_distance_m": 1.875,
+      "nearest_wall_id": "wall_40",
+      "score": 1.8709
+    },
+    {
+      "id": "cand_44",
+      "x": 26.186,
+      "y": 7.698,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_6",
+      "room_name": "Other 6",
+      "room_type": "other",
+      "min_wall_distance_m": 1.875,
+      "nearest_wall_id": "wall_40",
+      "score": 1.8709
+    },
+    {
+      "id": "cand_45",
+      "x": 26.186,
+      "y": 8.448,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_6",
+      "room_name": "Other 6",
+      "room_type": "other",
+      "min_wall_distance_m": 1.875,
+      "nearest_wall_id": "wall_40",
+      "score": 1.8709
+    },
+    {
+      "id": "cand_46",
+      "x": 26.186,
+      "y": 9.198,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_6",
+      "room_name": "Other 6",
+      "room_type": "other",
+      "min_wall_distance_m": 1.875,
+      "nearest_wall_id": "wall_40",
+      "score": 1.8709
+    },
+    {
+      "id": "cand_47",
+      "x": 26.186,
+      "y": 9.948,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_6",
+      "room_name": "Other 6",
+      "room_type": "other",
+      "min_wall_distance_m": 1.875,
+      "nearest_wall_id": "wall_40",
+      "score": 1.8709
+    },
+    {
+      "id": "cand_48",
+      "x": 26.936,
+      "y": 6.198,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_6",
+      "room_name": "Other 6",
+      "room_type": "other",
+      "min_wall_distance_m": 1.873,
+      "nearest_wall_id": "wall_42",
+      "score": 1.8706
+    },
+    {
+      "id": "cand_57",
+      "x": 36.47,
+      "y": 5.832,
+      "z": 2.75,
+      "source": "room_centroid",
+      "room_id": "room_8",
+      "room_name": "Other 8",
+      "room_type": "other",
+      "min_wall_distance_m": 1.504,
+      "nearest_wall_id": "wall_52",
+      "score": 1.5639
+    },
+    {
+      "id": "cand_58",
+      "x": 36.841,
+      "y": 6.198,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_8",
+      "room_name": "Other 8",
+      "room_type": "other",
+      "min_wall_distance_m": 1.133,
+      "nearest_wall_id": "wall_54",
+      "score": 1.5083
+    },
+    {
+      "id": "cand_59",
+      "x": 36.091,
+      "y": 5.448,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_8",
+      "room_name": "Other 8",
+      "room_type": "other",
+      "min_wall_distance_m": 1.125,
+      "nearest_wall_id": "wall_52",
+      "score": 1.5071
+    },
+    {
+      "id": "cand_60",
+      "x": 36.091,
+      "y": 6.198,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_8",
+      "room_name": "Other 8",
+      "room_type": "other",
+      "min_wall_distance_m": 1.125,
+      "nearest_wall_id": "wall_52",
+      "score": 1.5071
+    },
+    {
+      "id": "cand_61",
+      "x": 36.841,
+      "y": 5.448,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_8",
+      "room_name": "Other 8",
+      "room_type": "other",
+      "min_wall_distance_m": 1.125,
+      "nearest_wall_id": "wall_53",
+      "score": 1.5071
+    },
+    {
+      "id": "cand_62",
+      "x": 36.091,
+      "y": 6.948,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_8",
+      "room_name": "Other 8",
+      "room_type": "other",
+      "min_wall_distance_m": 0.394,
+      "nearest_wall_id": "wall_51",
+      "score": 1.3974
+    },
+    {
+      "id": "cand_63",
+      "x": 36.841,
+      "y": 6.948,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_8",
+      "room_name": "Other 8",
+      "room_type": "other",
+      "min_wall_distance_m": 0.394,
+      "nearest_wall_id": "wall_51",
+      "score": 1.3974
+    },
+    {
+      "id": "cand_64",
+      "x": 37.591,
+      "y": 5.448,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_8",
+      "room_name": "Other 8",
+      "room_type": "other",
+      "min_wall_distance_m": 0.383,
+      "nearest_wall_id": "wall_54",
+      "score": 1.3958
+    },
+    {
+      "id": "cand_12",
+      "x": 26.648,
+      "y": 17.073,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 2.545,
+      "nearest_wall_id": "wall_11",
+      "score": 1.3818
+    },
+    {
+      "id": "cand_15",
+      "x": 27.398,
+      "y": 17.073,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 2.545,
+      "nearest_wall_id": "wall_11",
+      "score": 1.3818
+    },
+    {
+      "id": "cand_18",
+      "x": 28.148,
+      "y": 17.073,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 2.545,
+      "nearest_wall_id": "wall_11",
+      "score": 1.3818
+    },
+    {
+      "id": "cand_21",
+      "x": 28.898,
+      "y": 17.073,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 2.545,
+      "nearest_wall_id": "wall_11",
+      "score": 1.3818
+    },
+    {
+      "id": "cand_24",
+      "x": 29.648,
+      "y": 17.073,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 2.545,
+      "nearest_wall_id": "wall_11",
+      "score": 1.3818
+    },
+    {
+      "id": "cand_27",
+      "x": 30.398,
+      "y": 17.073,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 2.545,
+      "nearest_wall_id": "wall_11",
+      "score": 1.3818
+    },
+    {
+      "id": "cand_30",
+      "x": 31.148,
+      "y": 17.073,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 2.545,
+      "nearest_wall_id": "wall_11",
+      "score": 1.3818
+    },
+    {
+      "id": "cand_33",
+      "x": 31.898,
+      "y": 17.073,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 2.545,
+      "nearest_wall_id": "wall_11",
+      "score": 1.3818
+    },
+    {
+      "id": "cand_36",
+      "x": 32.648,
+      "y": 17.073,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 2.545,
+      "nearest_wall_id": "wall_45",
+      "score": 1.3818
+    },
+    {
+      "id": "cand_39",
+      "x": 33.398,
+      "y": 17.073,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 2.545,
+      "nearest_wall_id": "wall_45",
+      "score": 1.3818
+    },
+    {
+      "id": "cand_42",
+      "x": 34.148,
+      "y": 17.073,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 2.545,
+      "nearest_wall_id": "wall_45",
+      "score": 1.3818
+    },
+    {
+      "id": "cand_45",
+      "x": 34.898,
+      "y": 17.073,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 2.545,
+      "nearest_wall_id": "wall_45",
+      "score": 1.3818
+    },
+    {
+      "id": "cand_48",
+      "x": 35.648,
+      "y": 17.073,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 2.545,
+      "nearest_wall_id": "wall_45",
+      "score": 1.3818
+    },
+    {
+      "id": "cand_51",
+      "x": 36.398,
+      "y": 17.073,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 2.545,
+      "nearest_wall_id": "wall_45",
+      "score": 1.3818
+    },
+    {
+      "id": "cand_54",
+      "x": 37.148,
+      "y": 17.073,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 2.545,
+      "nearest_wall_id": "wall_45",
+      "score": 1.3818
+    },
+    {
+      "id": "cand_9",
+      "x": 25.898,
+      "y": 17.073,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 1.986,
+      "nearest_wall_id": "wall_12",
+      "score": 1.2979
+    },
+    {
+      "id": "cand_8",
+      "x": 25.898,
+      "y": 16.323,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 1.795,
+      "nearest_wall_id": "wall_11",
+      "score": 1.2692
+    },
+    {
+      "id": "cand_11",
+      "x": 26.648,
+      "y": 16.323,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 1.795,
+      "nearest_wall_id": "wall_11",
+      "score": 1.2692
+    },
+    {
+      "id": "cand_14",
+      "x": 27.398,
+      "y": 16.323,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 1.795,
+      "nearest_wall_id": "wall_11",
+      "score": 1.2692
+    },
+    {
+      "id": "cand_17",
+      "x": 28.148,
+      "y": 16.323,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 1.795,
+      "nearest_wall_id": "wall_11",
+      "score": 1.2692
+    },
+    {
+      "id": "cand_20",
+      "x": 28.898,
+      "y": 16.323,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 1.795,
+      "nearest_wall_id": "wall_11",
+      "score": 1.2692
+    },
+    {
+      "id": "cand_23",
+      "x": 29.648,
+      "y": 16.323,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 1.795,
+      "nearest_wall_id": "wall_11",
+      "score": 1.2692
+    },
+    {
+      "id": "cand_26",
+      "x": 30.398,
+      "y": 16.323,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 1.795,
+      "nearest_wall_id": "wall_11",
+      "score": 1.2692
+    },
+    {
+      "id": "cand_29",
+      "x": 31.148,
+      "y": 16.323,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 1.795,
+      "nearest_wall_id": "wall_11",
+      "score": 1.2692
+    },
+    {
+      "id": "cand_32",
+      "x": 31.898,
+      "y": 16.323,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 1.795,
+      "nearest_wall_id": "wall_11",
+      "score": 1.2692
+    },
+    {
+      "id": "cand_35",
+      "x": 32.648,
+      "y": 16.323,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 1.795,
+      "nearest_wall_id": "wall_45",
+      "score": 1.2692
+    },
+    {
+      "id": "cand_38",
+      "x": 33.398,
+      "y": 16.323,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 1.795,
+      "nearest_wall_id": "wall_45",
+      "score": 1.2692
+    },
+    {
+      "id": "cand_41",
+      "x": 34.148,
+      "y": 16.323,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 1.795,
+      "nearest_wall_id": "wall_45",
+      "score": 1.2692
+    },
+    {
+      "id": "cand_44",
+      "x": 34.898,
+      "y": 16.323,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 1.795,
+      "nearest_wall_id": "wall_45",
+      "score": 1.2692
+    },
+    {
+      "id": "cand_47",
+      "x": 35.648,
+      "y": 16.323,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 1.795,
+      "nearest_wall_id": "wall_45",
+      "score": 1.2692
+    },
+    {
+      "id": "cand_50",
+      "x": 36.398,
+      "y": 16.323,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 1.795,
+      "nearest_wall_id": "wall_45",
+      "score": 1.2692
+    },
+    {
+      "id": "cand_53",
+      "x": 37.148,
+      "y": 16.323,
+      "z": 2.75,
+      "source": "service_grid",
+      "room_id": null,
+      "room_name": null,
+      "room_type": null,
+      "min_wall_distance_m": 1.795,
+      "nearest_wall_id": "wall_45",
+      "score": 1.2692
+    },
+    {
+      "id": "cand_49",
+      "x": 36.651,
+      "y": 9.487,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_7",
+      "room_name": "Restroom 7",
+      "room_type": "restroom",
+      "min_wall_distance_m": 1.484,
+      "nearest_wall_id": "wall_50",
+      "score": 0.412
+    },
+    {
+      "id": "cand_50",
+      "x": 36.651,
+      "y": 10.237,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_7",
+      "room_name": "Restroom 7",
+      "room_type": "restroom",
+      "min_wall_distance_m": 1.484,
+      "nearest_wall_id": "wall_50",
+      "score": 0.412
+    },
+    {
+      "id": "cand_51",
+      "x": 36.651,
+      "y": 10.987,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_7",
+      "room_name": "Restroom 7",
+      "room_type": "restroom",
+      "min_wall_distance_m": 1.484,
+      "nearest_wall_id": "wall_50",
+      "score": 0.412
+    },
+    {
+      "id": "cand_52",
+      "x": 36.651,
+      "y": 11.737,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_7",
+      "room_name": "Restroom 7",
+      "room_type": "restroom",
+      "min_wall_distance_m": 1.484,
+      "nearest_wall_id": "wall_50",
+      "score": 0.412
+    },
+    {
+      "id": "cand_53",
+      "x": 36.651,
+      "y": 12.487,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_7",
+      "room_name": "Restroom 7",
+      "room_type": "restroom",
+      "min_wall_distance_m": 1.484,
+      "nearest_wall_id": "wall_50",
+      "score": 0.412
+    },
+    {
+      "id": "cand_54",
+      "x": 35.901,
+      "y": 12.487,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_7",
+      "room_name": "Restroom 7",
+      "room_type": "restroom",
+      "min_wall_distance_m": 1.428,
+      "nearest_wall_id": "wall_47",
+      "score": 0.4037
+    },
+    {
+      "id": "cand_55",
+      "x": 34.401,
+      "y": 13.237,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_7",
+      "room_name": "Restroom 7",
+      "room_type": "restroom",
+      "min_wall_distance_m": 1.291,
+      "nearest_wall_id": "wall_45",
+      "score": 0.3831
+    },
+    {
+      "id": "cand_56",
+      "x": 35.151,
+      "y": 13.237,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_7",
+      "room_name": "Restroom 7",
+      "room_type": "restroom",
+      "min_wall_distance_m": 1.291,
+      "nearest_wall_id": "wall_45",
+      "score": 0.3831
+    },
+    {
+      "id": "cand_65",
+      "x": 18.277,
+      "y": 16.817,
+      "z": 2.75,
+      "source": "room_centroid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 1.285,
+      "nearest_wall_id": "wall_55",
+      "score": 0.3298
+    },
+    {
+      "id": "cand_66",
+      "x": 18.824,
+      "y": 16.657,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.78,
+      "nearest_wall_id": "wall_58",
+      "score": 0.254
+    },
+    {
+      "id": "cand_67",
+      "x": 18.074,
+      "y": 17.407,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.695,
+      "nearest_wall_id": "wall_55",
+      "score": 0.2413
+    },
+    {
+      "id": "cand_68",
+      "x": 18.824,
+      "y": 17.407,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.695,
+      "nearest_wall_id": "wall_55",
+      "score": 0.2413
+    },
+    {
+      "id": "cand_69",
+      "x": 17.324,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_56",
+      "score": 0.1933
+    },
+    {
+      "id": "cand_70",
+      "x": 17.324,
+      "y": 16.657,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_56",
+      "score": 0.1933
+    },
+    {
+      "id": "cand_71",
+      "x": 17.324,
+      "y": 17.407,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_56",
+      "score": 0.1933
+    },
+    {
+      "id": "cand_72",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.1933
+    },
+    {
+      "id": "training_padding_1",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_2",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_3",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_4",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_5",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_6",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_7",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_8",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_9",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_10",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_11",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_12",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_13",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_14",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_15",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_16",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_17",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_18",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_19",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_20",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_21",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_22",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_23",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_24",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_25",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_26",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_27",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_28",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_29",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_30",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_31",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_32",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_33",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_34",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_35",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_36",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_37",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_38",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_39",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_40",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_41",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_42",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_43",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_44",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_45",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_46",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_47",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_48",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_49",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_50",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_51",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_52",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_53",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_54",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_55",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_56",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_57",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_58",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_59",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_60",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_61",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_62",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_63",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_64",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_65",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_66",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_67",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_68",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_69",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_70",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_71",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_72",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_73",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_74",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_75",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_76",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_77",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_78",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_79",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_80",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_81",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_82",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_83",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_84",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_85",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_86",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_87",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_88",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_89",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_90",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_91",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_92",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_93",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_94",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_95",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_96",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_97",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_98",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_99",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_100",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_101",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_102",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_103",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_104",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_105",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_106",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_107",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_108",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_109",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_110",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_111",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_112",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_113",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_114",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_115",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_116",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_117",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_118",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_119",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_120",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_121",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_122",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_123",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_124",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_125",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_126",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_127",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_128",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_129",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_130",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_131",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_132",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_133",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_134",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_135",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_136",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_137",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_138",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_139",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_140",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_141",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_142",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_143",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_144",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_145",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_146",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_147",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_148",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_149",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_150",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_151",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_152",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_153",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_154",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_155",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_156",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_157",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_158",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_159",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_160",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_161",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_162",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_163",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_164",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_165",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_166",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_167",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_168",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_169",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_170",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_171",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_172",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_173",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_174",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_175",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_176",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_177",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_178",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_179",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_180",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_181",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_182",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_183",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_184",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_185",
+      "x": 18.074,
+      "y": 15.907,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_9",
+      "room_name": "Restroom 9",
+      "room_type": "restroom",
+      "min_wall_distance_m": 0.375,
+      "nearest_wall_id": "wall_57",
+      "score": 0.0,
+      "_action_padding": true
+    }
+  ],
+  "ap_catalog": {
+    "schema_version": "1.0",
+    "description": "Access point catalog used by the planner UI and future RL placement environment.",
+    "models": [
+      {
+        "id": "u6_lite",
+        "vendor": "Ubiquiti",
+        "model": "UniFi 6 Lite",
+        "class": "small_office",
+        "bands": [
+          "2.4",
+          "5"
+        ],
+        "gain24": 2.8,
+        "gain5": 3.0,
+        "gain6": 0.0,
+        "maxPower": 23,
+        "defaultPower24": 17,
+        "defaultPower5": 16,
+        "defaultPower6": 0,
+        "rate24": 300,
+        "rate5": 1200,
+        "rate6": 0,
+        "mimo": "2 x 2",
+        "clients": 120,
+        "recommendedClients": 60,
+        "planningClients": 30,
+        "coverage": "Small office / home",
+        "mounting": [
+          "ceiling",
+          "wall"
+        ],
+        "cost": 99,
+        "powerDrawW": 12,
+        "bssids": "8 per Radio",
+        "standards": "802.11ax/ac/n/g/b/a",
+        "color": "#60a5fa",
+        "image": "assets/unifi6_lite.png"
+      },
+      {
+        "id": "u6_pro",
+        "vendor": "Ubiquiti",
+        "model": "UniFi 6 Pro",
+        "class": "standard_office",
+        "bands": [
+          "2.4",
+          "5"
+        ],
+        "gain24": 4.0,
+        "gain5": 6.0,
+        "gain6": 0.0,
+        "maxPower": 26,
+        "defaultPower24": 20,
+        "defaultPower5": 18,
+        "defaultPower6": 0,
+        "rate24": 573,
+        "rate5": 4800,
+        "rate6": 0,
+        "mimo": "4 x 4",
+        "clients": 300,
+        "recommendedClients": 150,
+        "planningClients": 50,
+        "coverage": "Large office / classroom",
+        "mounting": [
+          "ceiling",
+          "wall"
+        ],
+        "cost": 159,
+        "powerDrawW": 13,
+        "bssids": "8 per Radio",
+        "standards": "802.11ax/ac/n/g/b/a",
+        "color": "#3b82f6",
+        "image": "assets/unifi6_pro.png"
+      },
+      {
+        "id": "eap660",
+        "vendor": "TP-Link",
+        "model": "EAP660 HD",
+        "class": "high_density",
+        "bands": [
+          "2.4",
+          "5"
+        ],
+        "gain24": 4.0,
+        "gain5": 5.0,
+        "gain6": 0.0,
+        "maxPower": 26,
+        "defaultPower24": 20,
+        "defaultPower5": 18,
+        "defaultPower6": 0,
+        "rate24": 1148,
+        "rate5": 2402,
+        "rate6": 0,
+        "mimo": "4 x 4",
+        "clients": 1020,
+        "recommendedClients": 250,
+        "planningClients": 75,
+        "coverage": "High-density indoor area",
+        "mounting": [
+          "ceiling",
+          "wall"
+        ],
+        "cost": 179,
+        "powerDrawW": 18,
+        "bssids": "16 total",
+        "standards": "802.11ax/ac/n/g/b/a",
+        "color": "#06b6d4",
+        "image": "assets/TP-Link_EAP660HD.png"
+      },
+      {
+        "id": "u6_lr",
+        "vendor": "Ubiquiti",
+        "model": "UniFi 6 Long Range",
+        "class": "long_range",
+        "bands": [
+          "2.4",
+          "5"
+        ],
+        "gain24": 4.0,
+        "gain5": 5.5,
+        "gain6": 0.0,
+        "maxPower": 26,
+        "defaultPower24": 21,
+        "defaultPower5": 20,
+        "defaultPower6": 0,
+        "rate24": 573,
+        "rate5": 2402,
+        "rate6": 0,
+        "mimo": "4 x 4",
+        "clients": 300,
+        "recommendedClients": 130,
+        "planningClients": 45,
+        "coverage": "Long corridor / wide indoor area",
+        "mounting": [
+          "ceiling",
+          "wall"
+        ],
+        "cost": 199,
+        "powerDrawW": 18.5,
+        "bssids": "8 per Radio",
+        "standards": "802.11ax/ac/n/g/b/a",
+        "color": "#0ea5e9",
+        "image": ""
+      }
+    ]
+  },
+  "reward_weights": {
+    "step": -0.04,
+    "coverage": 1.2,
+    "sample_coverage": 2.0,
+    "acceptable_coverage": 1.2,
+    "room_priority": 3.0,
+    "capacity": 1.2,
+    "cost": -0.9,
+    "ap_count": -1.2,
+    "overlap": -2.2,
+    "proximity": -4.0,
+    "sinr_coverage": 2.2,
+    "interference": -3.4,
+    "floor_coverage": 1.0,
+    "floor_sinr_coverage": 0.6,
+    "invalid_position": -3.0,
+    "terminal_sample_coverage": 4.0,
+    "terminal_acceptable_coverage": 2.0,
+    "terminal_coverage": 2.0,
+    "terminal_priority": 6.0,
+    "terminal_capacity": 1.5,
+    "terminal_blankspot": 6.0,
+    "terminal_shortfall": 12.0,
+    "terminal_weak_room": 6.0,
+    "terminal_overlap": 5.0,
+    "terminal_proximity": 12.0,
+    "terminal_sinr_coverage": 4.0,
+    "terminal_interference": 8.0,
+    "terminal_floor_coverage": 1.5,
+    "terminal_floor_blankspot": 3.0,
+    "terminal_ap_count": 3.0,
+    "terminal_cost": 0.6,
+    "stop_target_met": 5.0,
+    "stop_efficiency": 6.0,
+    "early_stop_shortfall": -8.0,
+    "early_stop_min_ap_shortfall": -5.0,
+    "max_ap_without_stop": -5.0
+  },
+  "suite_split": "holdout",
+  "variant": {
+    "index": 21,
+    "seed": 218433,
+    "type": "wall_and_demand_randomization"
+  },
+  "candidate_count": 104
+}

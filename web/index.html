@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SMART AP - Dashboard</title>
+  <link rel="stylesheet" href="./dashboard.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+  <!-- Top Navigation Header -->
+  <header class="dash-header">
+    <div class="header-left">
+      <a href="./index.html" class="logo">
+        <!-- Custom SMART AP logo -->
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round" class="logo-icon">
+          <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+          <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+          <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+          <line x1="12" y1="20" x2="12.01" y2="20"></line>
+        </svg>
+        <span class="logo-text">SMART AP</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="dash-main">
+    <div class="container">
+
+      <!-- Create Project Dropzone -->
+      <div id="dropzone" class="dropzone-container">
+        <div class="dropzone-icon"></div>
+        <div class="dropzone-text">
+          <p>Drop your file here or click to <span>upload floor plan.</span></p>
+          <small>Support image, PDF, and CAD (.dwg) files, max 15MB each.. Only one file can be imported at a
+            time.</small>
+        </div>
+        <input type="file" id="fileInput" hidden accept="image/*">
+      </div>
+
+      <!-- Projects Section -->
+      <section class="projects-section">
+
+        <!-- Tabs & Filters -->
+        <!-- Tabs & Filters -->
+        <div class="projects-header">
+          <div class="projects-tabs">
+            <a href="#" class="active">Your Projects <span class="count" id="projectCount">0</span></a>
+          </div>
+
+          <div class="projects-toolbar">
+            <div class="search-box">
+              <i data-lucide="search"></i>
+              <input type="text" placeholder="Search">
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Cards -->
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Dynamically populated via JS -->
+        </div>
+
+      </section>
+
+    </div>
+  </main>
+
+  <script>
+    lucide.createIcons();
+
+    const API_BASE = (() => {
+      const { protocol, hostname, port, origin } = window.location;
+      const isDevFrontend = ['5173', '5174'].includes(port);
+      const isLocalHost = ['localhost', '127.0.0.1', '0.0.0.0'].includes(hostname);
+      const isIpv4Host = /^\d+\.\d+\.\d+\.\d+$/.test(hostname);
+      if (port === '8001') return `${origin}/api`;
+      if (isDevFrontend || isLocalHost || isIpv4Host) return `${protocol}//${hostname}:8001/api`;
+      return `${origin}/api`;
+    })();
+    let allProjects = [];
+
+    async function fetchProjects() {
+      try {
+        const res = await fetch(`${API_BASE}/projects`);
+        allProjects = await res.json();
+        renderProjects(allProjects);
+      } catch (err) {
+        console.error("Failed to fetch projects", err);
+      }
+    }
+
+    function renderProjects(projects) {
+      document.getElementById('projectCount').innerText = projects.length;
+      const grid = document.getElementById('projectsGrid');
+      grid.innerHTML = '';
+
+      projects.forEach(p => {
+        const date = new Date(p.created_at).toLocaleDateString();
+        const cardHTML = `
+            <div class="project-card">
+              <div class="card-header">
+                <a href="./workspace.html?id=${p.id}" class="open-btn">
+                  Open <i data-lucide="chevron-right"></i>
+                </a>
+              </div>
+              
+              <a href="./workspace.html?id=${p.id}" class="card-thumbnail">
+                ${p.parameters && p.parameters.blueprintImageSrc ? 
+                  `<img src="${p.parameters.blueprintImageSrc}" alt="Thumbnail" style="width:100%; height:100%; object-fit: contain; border-radius: 4px;">` :
+                  `<svg viewBox="0 0 200 100" class="floorplan-svg">
+                    <rect x="10" y="10" width="180" height="80" fill="none" stroke="#ccc" stroke-width="2"/>
+                    <line x1="10" y1="50" x2="190" y2="50" stroke="#ccc" stroke-width="2"/>
+                  </svg>`
+                }
+              </a>
+
+              <div class="card-footer">
+                <div class="project-info">
+                  <h4>${p.name}</h4>
+                  <div class="project-meta">
+                    <i data-lucide="file-text"></i>
+                    <span>Project</span>
+                    <span class="dot">•</span>
+                    <span>${date}</span>
+                  </div>
+                </div>
+                <div class="project-actions">
+                  <button onclick="deleteProject(${p.id})" title="Delete Project" style="color: #ef4444;"><i data-lucide="trash-2"></i></button>
+                </div>
+              </div>
+            </div>
+          `;
+        grid.insertAdjacentHTML('beforeend', cardHTML);
+      });
+      lucide.createIcons();
+    }
+
+    async function deleteProject(id) {
+      if (!confirm("Are you sure you want to delete this project?")) return;
+      try {
+        const res = await fetch(`${API_BASE}/projects/${id}`, { method: 'DELETE' });
+        if (res.ok) {
+          fetchProjects();
+        }
+      } catch (err) {
+        console.error("Failed to delete project", err);
+      }
+    }
+
+    document.getElementById('projectSearch')?.addEventListener('input', (e) => {
+      const query = e.target.value.toLowerCase();
+      const filtered = allProjects.filter(p => p.name.toLowerCase().includes(query));
+      renderProjects(filtered);
+    });
+
+    let currentBlueprintData = null;
+
+    const dropzone = document.getElementById('dropzone');
+    const fileInput = document.getElementById('fileInput');
+
+    dropzone.addEventListener('click', (e) => {
+      fileInput.click();
+    });
+
+    dropzone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      dropzone.classList.add('dragover');
+    });
+
+    dropzone.addEventListener('dragleave', () => {
+      dropzone.classList.remove('dragover');
+    });
+
+    dropzone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      dropzone.classList.remove('dragover');
+      if (e.dataTransfer.files.length) {
+        handleFile(e.dataTransfer.files[0]);
+      }
+    });
+
+    fileInput.addEventListener('change', (e) => {
+      if (e.target.files.length) {
+        handleFile(e.target.files[0]);
+      }
+    });
+
+    function handleFile(file) {
+      if (!file.type.startsWith('image/')) {
+        alert("Please upload an image file (PNG/JPG).");
+        return;
+      }
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        currentBlueprintData = e.target.result;
+        showModal();
+      };
+      reader.readAsDataURL(file);
+    }
+
+    function showModal() {
+      document.getElementById('nameModal').style.display = 'flex';
+      document.getElementById('projectNameInput').focus();
+    }
+
+    window.closeModal = () => {
+      document.getElementById('nameModal').style.display = 'none';
+      currentBlueprintData = null;
+    };
+
+    window.confirmCreateProject = async () => {
+      const name = document.getElementById('projectNameInput').value.trim();
+      if (!name) {
+        alert("Please enter a name for your project.");
+        return;
+      }
+
+      try {
+        const res = await fetch(`${API_BASE}/projects`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ name })
+        });
+        const project = await res.json();
+
+        // Save the blueprint image immediately
+        await fetch(`${API_BASE}/projects/${project.id}`, {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            elements: [],
+            access_points: [],
+            parameters: { blueprintImageSrc: currentBlueprintData }
+          })
+        });
+
+        window.location.href = `./workspace.html?id=${project.id}`;
+      } catch (err) {
+        console.error(err);
+        alert("Failed to create project.");
+      }
+    };
+
+    fetchProjects();
+  </script>
+  <!-- Name Input Modal -->
+  <div id="nameModal" class="modal-overlay" style="display: none;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Almost there!</h3>
+        <button onclick="closeModal()" class="icon-btn"><i data-lucide="x"></i></button>
+      </div>
+      <div class="modal-body">
+        <p style="color: var(--text-secondary); font-size: 0.9rem;">Give your project a name to get started.</p>
+        <div class="modal-input-group">
+          <label for="projectNameInput">Project Name</label>
+          <input type="text" id="projectNameInput" placeholder="e.g. My Office Floorplan">
+        </div>
+        <div class="modal-footer">
+          <button onclick="closeModal()" class="sample-btn" style="margin:0">Cancel</button>
+          <button onclick="confirmCreateProject()" class="primary-btn">Create Project</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module">
+    import lucide from 'https://unpkg.com/lucide@latest/dist/esm/lucide.js';
+    lucide.createIcons();
+  </script>
+</body>
+
+</html>

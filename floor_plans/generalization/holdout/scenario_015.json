@@ -1,0 +1,5200 @@
+{
+  "name": "CubiCasa5K / sample_0001 / uniform concrete",
+  "dataset_source": {
+    "name": "CubiCasa5K",
+    "url": "https://zenodo.org/records/2613548",
+    "license": "CC BY-NC 4.0",
+    "source_file": "scratch/public_datasets/cubicasa_subset/sample_0001/model.svg"
+  },
+  "floor_plan": {
+    "selected_frequency_ghz": 5.0,
+    "floor_height_m": 3.0,
+    "bounds": {
+      "min_x": 4.781,
+      "min_y": 4.425,
+      "max_x": 29.719,
+      "max_y": 16.822
+    }
+  },
+  "walls": [
+    {
+      "id": "wall_1",
+      "points": [
+        [
+          15.329,
+          8.698
+        ],
+        [
+          21.19,
+          13.013
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 31.118,
+        "5": 33.455,
+        "6": 30.956
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 273.86,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_2",
+      "points": [
+        [
+          21.19,
+          13.013
+        ],
+        [
+          21.19,
+          16.822
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 30.03,
+        "5": 27.269,
+        "6": 40.968
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 259.523,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_3",
+      "points": [
+        [
+          21.19,
+          16.822
+        ],
+        [
+          15.617,
+          16.822
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 20.469,
+        "5": 23.391,
+        "6": 37.002
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 217.226,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_4",
+      "points": [
+        [
+          15.617,
+          16.822
+        ],
+        [
+          15.617,
+          11.943
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 21.06,
+        "5": 26.959,
+        "6": 26.263
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 252.836,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_5",
+      "points": [
+        [
+          15.617,
+          11.943
+        ],
+        [
+          14.069,
+          11.943
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 23.853,
+        "5": 28.561,
+        "6": 30.768
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 212.402,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_6",
+      "points": [
+        [
+          14.069,
+          11.943
+        ],
+        [
+          14.069,
+          12.223
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 20.212,
+        "5": 26.435,
+        "6": 25.241
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 240.712,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_7",
+      "points": [
+        [
+          14.069,
+          12.223
+        ],
+        [
+          15.337,
+          12.223
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 23.273,
+        "5": 30.664,
+        "6": 29.034
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 253.162,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_8",
+      "points": [
+        [
+          15.337,
+          12.223
+        ],
+        [
+          15.337,
+          15.642
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 20.715,
+        "5": 26.143,
+        "6": 39.142
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 243.926,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_9",
+      "points": [
+        [
+          15.337,
+          15.642
+        ],
+        [
+          14.745,
+          15.642
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 29.804,
+        "5": 27.644,
+        "6": 28.582
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 208.879,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_10",
+      "points": [
+        [
+          14.745,
+          15.642
+        ],
+        [
+          14.745,
+          16.822
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 26.256,
+        "5": 32.088,
+        "6": 26.511
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 224.185,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_11",
+      "points": [
+        [
+          14.745,
+          16.822
+        ],
+        [
+          4.781,
+          16.822
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 22.579,
+        "5": 35.905,
+        "6": 30.989
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 240.847,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_12",
+      "points": [
+        [
+          4.781,
+          16.822
+        ],
+        [
+          4.781,
+          4.425
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 30.05,
+        "5": 35.707,
+        "6": 39.694
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 204.249,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_13",
+      "points": [
+        [
+          4.781,
+          4.425
+        ],
+        [
+          15.329,
+          4.425
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 19.541,
+        "5": 30.536,
+        "6": 28.12
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 275.651,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_14",
+      "points": [
+        [
+          15.329,
+          4.425
+        ],
+        [
+          15.329,
+          8.698
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 23.872,
+        "5": 22.629,
+        "6": 39.154
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 226.339,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_15",
+      "points": [
+        [
+          29.719,
+          16.822
+        ],
+        [
+          21.47,
+          16.822
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 21.497,
+        "5": 30.818,
+        "6": 34.12
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 214.244,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_16",
+      "points": [
+        [
+          21.47,
+          16.822
+        ],
+        [
+          21.47,
+          12.872
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 23.601,
+        "5": 24.217,
+        "6": 33.561
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 266.436,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_17",
+      "points": [
+        [
+          21.47,
+          12.872
+        ],
+        [
+          20.7,
+          12.3
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 19.717,
+        "5": 24.459,
+        "6": 27.298
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 259.518,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_18",
+      "points": [
+        [
+          20.7,
+          12.3
+        ],
+        [
+          23.251,
+          8.761
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 30.714,
+        "5": 32.073,
+        "6": 32.298
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 236.942,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_19",
+      "points": [
+        [
+          23.251,
+          8.761
+        ],
+        [
+          24.408,
+          8.761
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 29.799,
+        "5": 25.223,
+        "6": 34.615
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 230.304,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_20",
+      "points": [
+        [
+          24.408,
+          8.761
+        ],
+        [
+          24.408,
+          4.425
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 18.931,
+        "5": 37.328,
+        "6": 38.072
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 205.678,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_21",
+      "points": [
+        [
+          24.408,
+          4.425
+        ],
+        [
+          29.719,
+          4.425
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 19.449,
+        "5": 24.689,
+        "6": 39.041
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 234.103,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_22",
+      "points": [
+        [
+          29.719,
+          4.425
+        ],
+        [
+          29.719,
+          16.822
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 21.312,
+        "5": 35.496,
+        "6": 27.218
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 224.363,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_23",
+      "points": [
+        [
+          21.198,
+          8.761
+        ],
+        [
+          22.912,
+          8.761
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 27.175,
+        "5": 25.947,
+        "6": 39.967
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 256.326,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_24",
+      "points": [
+        [
+          22.912,
+          8.761
+        ],
+        [
+          20.48,
+          12.14
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 31.247,
+        "5": 25.75,
+        "6": 31.268
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 213.311,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_25",
+      "points": [
+        [
+          20.48,
+          12.14
+        ],
+        [
+          15.6,
+          8.56
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 28.14,
+        "5": 29.118,
+        "6": 31.445
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 222.287,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_26",
+      "points": [
+        [
+          15.6,
+          8.56
+        ],
+        [
+          15.609,
+          8.557
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 23.33,
+        "5": 26.527,
+        "6": 28.886
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 204.877,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_27",
+      "points": [
+        [
+          15.609,
+          8.557
+        ],
+        [
+          15.609,
+          4.425
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 26.441,
+        "5": 33.379,
+        "6": 28.025
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 240.597,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_28",
+      "points": [
+        [
+          15.609,
+          4.425
+        ],
+        [
+          21.198,
+          4.425
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 21.283,
+        "5": 33.509,
+        "6": 36.351
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 211.971,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_29",
+      "points": [
+        [
+          21.198,
+          4.425
+        ],
+        [
+          21.198,
+          8.761
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 24.906,
+        "5": 28.822,
+        "6": 37.361
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 225.862,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_30",
+      "points": [
+        [
+          24.128,
+          8.481
+        ],
+        [
+          21.478,
+          8.481
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 18.934,
+        "5": 35.199,
+        "6": 37.669
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 261.876,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_31",
+      "points": [
+        [
+          21.478,
+          8.481
+        ],
+        [
+          21.478,
+          4.425
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 24.548,
+        "5": 30.832,
+        "6": 39.559
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 246.921,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_32",
+      "points": [
+        [
+          21.478,
+          4.425
+        ],
+        [
+          24.128,
+          4.425
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 31.199,
+        "5": 26.046,
+        "6": 36.365
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 272.234,
+      "randomized_profile": "concrete"
+    },
+    {
+      "id": "wall_33",
+      "points": [
+        [
+          24.128,
+          4.425
+        ],
+        [
+          24.128,
+          8.481
+        ]
+      ],
+      "material_id": "concrete",
+      "attenuation_db": {
+        "2.4": 18.832,
+        "5": 31.512,
+        "6": 26.05
+      },
+      "material_name": "Concrete",
+      "thickness_mm": 209.77,
+      "randomized_profile": "concrete"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "room_1",
+      "name": "Other 1",
+      "type": "other",
+      "polygon": [
+        {
+          "x": 15.329,
+          "y": 8.698
+        },
+        {
+          "x": 21.19,
+          "y": 13.013
+        },
+        {
+          "x": 21.19,
+          "y": 16.822
+        },
+        {
+          "x": 15.617,
+          "y": 16.822
+        },
+        {
+          "x": 15.617,
+          "y": 11.943
+        },
+        {
+          "x": 14.069,
+          "y": 11.943
+        },
+        {
+          "x": 14.069,
+          "y": 12.223
+        },
+        {
+          "x": 15.337,
+          "y": 12.223
+        },
+        {
+          "x": 15.337,
+          "y": 15.642
+        },
+        {
+          "x": 14.745,
+          "y": 15.642
+        },
+        {
+          "x": 14.745,
+          "y": 16.822
+        },
+        {
+          "x": 4.781,
+          "y": 16.822
+        },
+        {
+          "x": 4.781,
+          "y": 4.425
+        },
+        {
+          "x": 15.329,
+          "y": 4.425
+        }
+      ],
+      "area_m2": 163.313,
+      "centroid": {
+        "x": 11.65937469993281,
+        "y": 11.225519569426679
+      },
+      "clients": 19,
+      "priority": 1.054,
+      "coverage_target_dbm": -68.1,
+      "excluded": false
+    },
+    {
+      "id": "room_2",
+      "name": "Other 2",
+      "type": "other",
+      "polygon": [
+        {
+          "x": 29.719,
+          "y": 16.822
+        },
+        {
+          "x": 21.47,
+          "y": 16.822
+        },
+        {
+          "x": 21.47,
+          "y": 12.872
+        },
+        {
+          "x": 20.7,
+          "y": 12.3
+        },
+        {
+          "x": 23.251,
+          "y": 8.761
+        },
+        {
+          "x": 24.408,
+          "y": 8.761
+        },
+        {
+          "x": 24.408,
+          "y": 4.425
+        },
+        {
+          "x": 29.719,
+          "y": 4.425
+        }
+      ],
+      "area_m2": 87.955,
+      "centroid": {
+        "x": 26.03598586975717,
+        "y": 11.2441050720757
+      },
+      "clients": 10,
+      "priority": 1.005,
+      "coverage_target_dbm": -67.3,
+      "excluded": false
+    },
+    {
+      "id": "room_3",
+      "name": "Other 3",
+      "type": "other",
+      "polygon": [
+        {
+          "x": 21.198,
+          "y": 8.761
+        },
+        {
+          "x": 22.912,
+          "y": 8.761
+        },
+        {
+          "x": 20.48,
+          "y": 12.14
+        },
+        {
+          "x": 15.6,
+          "y": 8.56
+        },
+        {
+          "x": 15.609,
+          "y": 8.557
+        },
+        {
+          "x": 15.609,
+          "y": 4.425
+        },
+        {
+          "x": 21.198,
+          "y": 4.425
+        }
+      ],
+      "area_m2": 36.099,
+      "centroid": {
+        "x": 18.85071039530403,
+        "y": 7.676631280760305
+      },
+      "clients": 5,
+      "priority": 1.023,
+      "coverage_target_dbm": -64.7,
+      "excluded": false
+    },
+    {
+      "id": "room_4",
+      "name": "Other 4",
+      "type": "other",
+      "polygon": [
+        {
+          "x": 24.128,
+          "y": 8.481
+        },
+        {
+          "x": 21.478,
+          "y": 8.481
+        },
+        {
+          "x": 21.478,
+          "y": 4.425
+        },
+        {
+          "x": 24.128,
+          "y": 4.425
+        }
+      ],
+      "area_m2": 10.748,
+      "centroid": {
+        "x": 22.802999999999987,
+        "y": 6.453000000000001
+      },
+      "clients": 1,
+      "priority": 0.912,
+      "coverage_target_dbm": -68.6,
+      "excluded": false
+    }
+  ],
+  "constraints": {
+    "observation_version": 4,
+    "max_candidates": 160,
+    "max_candidates_per_room": 8,
+    "max_ap_count": 16,
+    "min_ap_count": 1,
+    "min_ap_separation_m": 5.0,
+    "floor_sample_step_m": 1.2,
+    "max_floor_samples": 320,
+    "max_episode_steps": 32,
+    "room_sample_step_m": 1.2,
+    "max_samples_per_room": 20,
+    "comfortable_ap_spacing_m": 10.0
+  },
+  "targets": {
+    "default_coverage_dbm": -67,
+    "target_sample_coverage_ratio": 0.9,
+    "min_sinr_db": 15.0,
+    "interference_sinr_db": 20.0,
+    "target_acceptable_coverage_ratio": 0.95,
+    "min_coverage_ratio": 0.85,
+    "min_capacity_ratio": 0.95,
+    "max_weak_room_count": 1,
+    "target_sinr_coverage_ratio": 0.85,
+    "target_floor_coverage_ratio": 0.8,
+    "target_floor_sinr_coverage_ratio": 0.8,
+    "max_overlap_ratio": 0.25
+  },
+  "propagation_model": {
+    "profile": "randomized_calibrated",
+    "bands": {
+      "2.4": {
+        "distance_loss_coefficient": 31.253,
+        "shadow_margin_db": 9.032,
+        "wall_loss_multiplier": 1.08
+      },
+      "5": {
+        "distance_loss_coefficient": 36.259,
+        "shadow_margin_db": 9.307,
+        "wall_loss_multiplier": 1.12
+      },
+      "6": {
+        "distance_loss_coefficient": 38.6,
+        "shadow_margin_db": 9.659,
+        "wall_loss_multiplier": 1.15
+      }
+    }
+  },
+  "candidate_positions": [
+    {
+      "id": "cand_1",
+      "x": 8.156,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_1",
+      "room_name": "Other 1",
+      "room_type": "other",
+      "min_wall_distance_m": 3.375,
+      "nearest_wall_id": "wall_12",
+      "score": 2.9585
+    },
+    {
+      "id": "cand_2",
+      "x": 8.156,
+      "y": 8.55,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_1",
+      "room_name": "Other 1",
+      "room_type": "other",
+      "min_wall_distance_m": 3.375,
+      "nearest_wall_id": "wall_12",
+      "score": 2.9585
+    },
+    {
+      "id": "cand_3",
+      "x": 8.156,
+      "y": 9.3,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_1",
+      "room_name": "Other 1",
+      "room_type": "other",
+      "min_wall_distance_m": 3.375,
+      "nearest_wall_id": "wall_12",
+      "score": 2.9585
+    },
+    {
+      "id": "cand_4",
+      "x": 8.156,
+      "y": 10.05,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_1",
+      "room_name": "Other 1",
+      "room_type": "other",
+      "min_wall_distance_m": 3.375,
+      "nearest_wall_id": "wall_12",
+      "score": 2.9585
+    },
+    {
+      "id": "cand_5",
+      "x": 8.156,
+      "y": 10.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_1",
+      "room_name": "Other 1",
+      "room_type": "other",
+      "min_wall_distance_m": 3.375,
+      "nearest_wall_id": "wall_12",
+      "score": 2.9585
+    },
+    {
+      "id": "cand_6",
+      "x": 8.156,
+      "y": 11.55,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_1",
+      "room_name": "Other 1",
+      "room_type": "other",
+      "min_wall_distance_m": 3.375,
+      "nearest_wall_id": "wall_12",
+      "score": 2.9585
+    },
+    {
+      "id": "cand_7",
+      "x": 8.156,
+      "y": 12.3,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_1",
+      "room_name": "Other 1",
+      "room_type": "other",
+      "min_wall_distance_m": 3.375,
+      "nearest_wall_id": "wall_12",
+      "score": 2.9585
+    },
+    {
+      "id": "cand_8",
+      "x": 8.156,
+      "y": 13.05,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_1",
+      "room_name": "Other 1",
+      "room_type": "other",
+      "min_wall_distance_m": 3.375,
+      "nearest_wall_id": "wall_12",
+      "score": 2.9585
+    },
+    {
+      "id": "cand_9",
+      "x": 24.825,
+      "y": 12.3,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_2",
+      "room_name": "Other 2",
+      "room_type": "other",
+      "min_wall_distance_m": 3.346,
+      "nearest_wall_id": "wall_18",
+      "score": 2.661
+    },
+    {
+      "id": "cand_10",
+      "x": 24.825,
+      "y": 13.05,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_2",
+      "room_name": "Other 2",
+      "room_type": "other",
+      "min_wall_distance_m": 3.355,
+      "nearest_wall_id": "wall_16",
+      "score": 2.661
+    },
+    {
+      "id": "cand_11",
+      "x": 24.825,
+      "y": 13.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_2",
+      "room_name": "Other 2",
+      "room_type": "other",
+      "min_wall_distance_m": 3.022,
+      "nearest_wall_id": "wall_15",
+      "score": 2.661
+    },
+    {
+      "id": "cand_12",
+      "x": 25.575,
+      "y": 11.55,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_2",
+      "room_name": "Other 2",
+      "room_type": "other",
+      "min_wall_distance_m": 3.023,
+      "nearest_wall_id": "wall_19",
+      "score": 2.661
+    },
+    {
+      "id": "cand_13",
+      "x": 25.575,
+      "y": 12.3,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_2",
+      "room_name": "Other 2",
+      "room_type": "other",
+      "min_wall_distance_m": 3.726,
+      "nearest_wall_id": "wall_19",
+      "score": 2.661
+    },
+    {
+      "id": "cand_14",
+      "x": 25.575,
+      "y": 13.05,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_2",
+      "room_name": "Other 2",
+      "room_type": "other",
+      "min_wall_distance_m": 3.772,
+      "nearest_wall_id": "wall_15",
+      "score": 2.661
+    },
+    {
+      "id": "cand_15",
+      "x": 25.575,
+      "y": 13.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_2",
+      "room_name": "Other 2",
+      "room_type": "other",
+      "min_wall_distance_m": 3.022,
+      "nearest_wall_id": "wall_15",
+      "score": 2.661
+    },
+    {
+      "id": "cand_16",
+      "x": 26.325,
+      "y": 11.55,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_2",
+      "room_name": "Other 2",
+      "room_type": "other",
+      "min_wall_distance_m": 3.384,
+      "nearest_wall_id": "wall_19",
+      "score": 2.661
+    },
+    {
+      "id": "cand_17",
+      "x": 18.225,
+      "y": 7.05,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_3",
+      "room_name": "Other 3",
+      "room_type": "other",
+      "min_wall_distance_m": 2.616,
+      "nearest_wall_id": "wall_27",
+      "score": 1.9512
+    },
+    {
+      "id": "cand_18",
+      "x": 18.851,
+      "y": 7.677,
+      "z": 2.75,
+      "source": "room_centroid",
+      "room_id": "room_3",
+      "room_name": "Other 3",
+      "room_type": "other",
+      "min_wall_distance_m": 2.347,
+      "nearest_wall_id": "wall_29",
+      "score": 1.9109
+    },
+    {
+      "id": "cand_19",
+      "x": 18.975,
+      "y": 7.05,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_3",
+      "room_name": "Other 3",
+      "room_type": "other",
+      "min_wall_distance_m": 2.223,
+      "nearest_wall_id": "wall_29",
+      "score": 1.8923
+    },
+    {
+      "id": "cand_20",
+      "x": 18.225,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_3",
+      "room_name": "Other 3",
+      "room_type": "other",
+      "min_wall_distance_m": 2.165,
+      "nearest_wall_id": "wall_25",
+      "score": 1.8837
+    },
+    {
+      "id": "cand_21",
+      "x": 18.975,
+      "y": 8.55,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_3",
+      "room_name": "Other 3",
+      "room_type": "other",
+      "min_wall_distance_m": 2.004,
+      "nearest_wall_id": "wall_25",
+      "score": 1.8595
+    },
+    {
+      "id": "cand_22",
+      "x": 18.225,
+      "y": 6.3,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_3",
+      "room_name": "Other 3",
+      "room_type": "other",
+      "min_wall_distance_m": 1.875,
+      "nearest_wall_id": "wall_28",
+      "score": 1.8401
+    },
+    {
+      "id": "cand_23",
+      "x": 18.975,
+      "y": 6.3,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_3",
+      "room_name": "Other 3",
+      "room_type": "other",
+      "min_wall_distance_m": 1.875,
+      "nearest_wall_id": "wall_28",
+      "score": 1.8401
+    },
+    {
+      "id": "cand_24",
+      "x": 17.475,
+      "y": 6.3,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_3",
+      "room_name": "Other 3",
+      "room_type": "other",
+      "min_wall_distance_m": 1.866,
+      "nearest_wall_id": "wall_27",
+      "score": 1.8387
+    },
+    {
+      "id": "cand_25",
+      "x": 22.803,
+      "y": 6.453,
+      "z": 2.75,
+      "source": "room_centroid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 1.325,
+      "nearest_wall_id": "wall_31",
+      "score": 1.2436
+    },
+    {
+      "id": "cand_26",
+      "x": 22.603,
+      "y": 5.55,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 1.125,
+      "nearest_wall_id": "wall_31",
+      "score": 1.2136
+    },
+    {
+      "id": "cand_27",
+      "x": 22.603,
+      "y": 7.05,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 1.125,
+      "nearest_wall_id": "wall_31",
+      "score": 1.2136
+    },
+    {
+      "id": "cand_28",
+      "x": 23.353,
+      "y": 5.55,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.775,
+      "nearest_wall_id": "wall_33",
+      "score": 1.1611
+    },
+    {
+      "id": "cand_29",
+      "x": 23.353,
+      "y": 6.3,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.775,
+      "nearest_wall_id": "wall_33",
+      "score": 1.1611
+    },
+    {
+      "id": "cand_30",
+      "x": 23.353,
+      "y": 7.05,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.775,
+      "nearest_wall_id": "wall_33",
+      "score": 1.1611
+    },
+    {
+      "id": "cand_31",
+      "x": 22.603,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 1.147
+    },
+    {
+      "id": "cand_32",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 1.147
+    },
+    {
+      "id": "training_padding_1",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_2",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_3",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_4",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_5",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_6",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_7",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_8",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_9",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_10",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_11",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_12",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_13",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_14",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_15",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_16",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_17",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_18",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_19",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_20",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_21",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_22",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_23",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_24",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_25",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_26",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_27",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_28",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_29",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_30",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_31",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_32",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_33",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_34",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_35",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_36",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_37",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_38",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_39",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_40",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_41",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_42",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_43",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_44",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_45",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_46",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_47",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_48",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_49",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_50",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_51",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_52",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_53",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_54",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_55",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_56",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_57",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_58",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_59",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_60",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_61",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_62",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_63",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_64",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_65",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_66",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_67",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_68",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_69",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_70",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_71",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_72",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_73",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_74",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_75",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_76",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_77",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_78",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_79",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_80",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_81",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_82",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_83",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_84",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_85",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_86",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_87",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_88",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_89",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_90",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_91",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_92",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_93",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_94",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_95",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_96",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_97",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_98",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_99",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_100",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_101",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_102",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_103",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_104",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_105",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_106",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_107",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_108",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_109",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_110",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_111",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_112",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_113",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_114",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_115",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_116",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_117",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_118",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_119",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_120",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_121",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_122",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_123",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_124",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_125",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_126",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_127",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_128",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_129",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_130",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_131",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_132",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_133",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_134",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_135",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_136",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_137",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_138",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_139",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_140",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_141",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_142",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_143",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_144",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_145",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_146",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_147",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_148",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_149",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_150",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_151",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_152",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_153",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_154",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_155",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_156",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_157",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_158",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_159",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_160",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_161",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_162",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_163",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_164",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_165",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_166",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_167",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_168",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_169",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_170",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_171",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_172",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_173",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_174",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_175",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_176",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_177",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_178",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_179",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_180",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_181",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_182",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_183",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_184",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_185",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_186",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_187",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_188",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_189",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_190",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_191",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_192",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_193",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_194",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_195",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_196",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_197",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_198",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_199",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_200",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_201",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_202",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_203",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_204",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_205",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_206",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_207",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_208",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_209",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_210",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_211",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_212",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_213",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_214",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_215",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_216",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_217",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_218",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_219",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_220",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_221",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_222",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_223",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_224",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_225",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_226",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_227",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_228",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_229",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_230",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_231",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_232",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_233",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_234",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_235",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_236",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_237",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_238",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_239",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_240",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_241",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_242",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_243",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_244",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_245",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_246",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_247",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_248",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_249",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_250",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_251",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_252",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_253",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_254",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_255",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_256",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    },
+    {
+      "id": "training_padding_257",
+      "x": 23.353,
+      "y": 7.8,
+      "z": 2.75,
+      "source": "room_grid",
+      "room_id": "room_4",
+      "room_name": "Other 4",
+      "room_type": "other",
+      "min_wall_distance_m": 0.681,
+      "nearest_wall_id": "wall_30",
+      "score": 0.0,
+      "_action_padding": true
+    }
+  ],
+  "ap_catalog": {
+    "schema_version": "1.0",
+    "description": "Access point catalog used by the planner UI and future RL placement environment.",
+    "models": [
+      {
+        "id": "u6_lite",
+        "vendor": "Ubiquiti",
+        "model": "UniFi 6 Lite",
+        "class": "small_office",
+        "bands": [
+          "2.4",
+          "5"
+        ],
+        "gain24": 2.8,
+        "gain5": 3.0,
+        "gain6": 0.0,
+        "maxPower": 23,
+        "defaultPower24": 17,
+        "defaultPower5": 16,
+        "defaultPower6": 0,
+        "rate24": 300,
+        "rate5": 1200,
+        "rate6": 0,
+        "mimo": "2 x 2",
+        "clients": 120,
+        "recommendedClients": 60,
+        "planningClients": 30,
+        "coverage": "Small office / home",
+        "mounting": [
+          "ceiling",
+          "wall"
+        ],
+        "cost": 99,
+        "powerDrawW": 12,
+        "bssids": "8 per Radio",
+        "standards": "802.11ax/ac/n/g/b/a",
+        "color": "#60a5fa",
+        "image": "assets/unifi6_lite.png"
+      },
+      {
+        "id": "u6_pro",
+        "vendor": "Ubiquiti",
+        "model": "UniFi 6 Pro",
+        "class": "standard_office",
+        "bands": [
+          "2.4",
+          "5"
+        ],
+        "gain24": 4.0,
+        "gain5": 6.0,
+        "gain6": 0.0,
+        "maxPower": 26,
+        "defaultPower24": 20,
+        "defaultPower5": 18,
+        "defaultPower6": 0,
+        "rate24": 573,
+        "rate5": 4800,
+        "rate6": 0,
+        "mimo": "4 x 4",
+        "clients": 300,
+        "recommendedClients": 150,
+        "planningClients": 50,
+        "coverage": "Large office / classroom",
+        "mounting": [
+          "ceiling",
+          "wall"
+        ],
+        "cost": 159,
+        "powerDrawW": 13,
+        "bssids": "8 per Radio",
+        "standards": "802.11ax/ac/n/g/b/a",
+        "color": "#3b82f6",
+        "image": "assets/unifi6_pro.png"
+      },
+      {
+        "id": "eap660",
+        "vendor": "TP-Link",
+        "model": "EAP660 HD",
+        "class": "high_density",
+        "bands": [
+          "2.4",
+          "5"
+        ],
+        "gain24": 4.0,
+        "gain5": 5.0,
+        "gain6": 0.0,
+        "maxPower": 26,
+        "defaultPower24": 20,
+        "defaultPower5": 18,
+        "defaultPower6": 0,
+        "rate24": 1148,
+        "rate5": 2402,
+        "rate6": 0,
+        "mimo": "4 x 4",
+        "clients": 1020,
+        "recommendedClients": 250,
+        "planningClients": 75,
+        "coverage": "High-density indoor area",
+        "mounting": [
+          "ceiling",
+          "wall"
+        ],
+        "cost": 179,
+        "powerDrawW": 18,
+        "bssids": "16 total",
+        "standards": "802.11ax/ac/n/g/b/a",
+        "color": "#06b6d4",
+        "image": "assets/TP-Link_EAP660HD.png"
+      },
+      {
+        "id": "u6_lr",
+        "vendor": "Ubiquiti",
+        "model": "UniFi 6 Long Range",
+        "class": "long_range",
+        "bands": [
+          "2.4",
+          "5"
+        ],
+        "gain24": 4.0,
+        "gain5": 5.5,
+        "gain6": 0.0,
+        "maxPower": 26,
+        "defaultPower24": 21,
+        "defaultPower5": 20,
+        "defaultPower6": 0,
+        "rate24": 573,
+        "rate5": 2402,
+        "rate6": 0,
+        "mimo": "4 x 4",
+        "clients": 300,
+        "recommendedClients": 130,
+        "planningClients": 45,
+        "coverage": "Long corridor / wide indoor area",
+        "mounting": [
+          "ceiling",
+          "wall"
+        ],
+        "cost": 199,
+        "powerDrawW": 18.5,
+        "bssids": "8 per Radio",
+        "standards": "802.11ax/ac/n/g/b/a",
+        "color": "#0ea5e9",
+        "image": ""
+      }
+    ]
+  },
+  "reward_weights": {
+    "step": -0.04,
+    "coverage": 1.2,
+    "sample_coverage": 2.0,
+    "acceptable_coverage": 1.2,
+    "room_priority": 3.0,
+    "capacity": 1.2,
+    "cost": -0.9,
+    "ap_count": -1.2,
+    "overlap": -2.2,
+    "proximity": -4.0,
+    "sinr_coverage": 2.2,
+    "interference": -3.4,
+    "floor_coverage": 1.0,
+    "floor_sinr_coverage": 0.6,
+    "invalid_position": -3.0,
+    "terminal_sample_coverage": 4.0,
+    "terminal_acceptable_coverage": 2.0,
+    "terminal_coverage": 2.0,
+    "terminal_priority": 6.0,
+    "terminal_capacity": 1.5,
+    "terminal_blankspot": 6.0,
+    "terminal_shortfall": 12.0,
+    "terminal_weak_room": 6.0,
+    "terminal_overlap": 5.0,
+    "terminal_proximity": 12.0,
+    "terminal_sinr_coverage": 4.0,
+    "terminal_interference": 8.0,
+    "terminal_floor_coverage": 1.5,
+    "terminal_floor_blankspot": 3.0,
+    "terminal_ap_count": 3.0,
+    "terminal_cost": 0.6,
+    "stop_target_met": 5.0,
+    "stop_efficiency": 6.0,
+    "early_stop_shortfall": -8.0,
+    "early_stop_min_ap_shortfall": -5.0,
+    "max_ap_without_stop": -5.0
+  },
+  "suite_split": "holdout",
+  "variant": {
+    "index": 21,
+    "seed": 217933,
+    "type": "wall_and_demand_randomization"
+  },
+  "candidate_count": 32
+}

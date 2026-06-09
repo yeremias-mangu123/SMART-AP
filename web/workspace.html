@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WiFi Planner Dashboard</title>
+  <link rel="stylesheet" href="./style.css">
+  <!-- Google Fonts for modern typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+  <div class="app-container">
+
+    <!-- Top Navigation Bar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <a href="./index.html" class="logo" style="text-decoration: none; cursor: pointer;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="logo-icon" style="color:#2563eb">
+            <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+            <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+            <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+            <line x1="12" y1="20" x2="12.01" y2="20"></line>
+          </svg>
+          <span style="font-weight:700; color:#1e40af; margin-left:8px;">SMART AP</span>
+        </a>
+        <div class="divider" style="margin: 0 12px; height: 16px;"></div>
+        <span id="topBarProjectName" style="color:var(--text-secondary); font-size:0.9rem;">Project Workspace</span>
+      </div>
+
+      <nav class="topbar-nav">
+        <a href="#" class="active" id="btnToggleHeatmap">Heatmap</a>
+        <a href="#" id="btnDeviceList">Device List</a>
+      </nav>
+
+      <div class="topbar-right">
+        <button id="btnSave" class="primary-btn" style="background-color: #10b981;">Save</button>
+      </div>
+    </header>
+
+    <div class="main-workspace">
+      <!-- Left Sidebar Tools -->
+      <aside class="sidebar">
+        <button class="tool-btn active" data-tool="wall" title="Add Wall">
+          <i data-lucide="square"></i>
+          <span>Add Wall</span>
+        </button>
+        <button class="tool-btn" data-tool="ap" title="Place Devices">
+          <i data-lucide="router"></i>
+          <span>Place Devices</span>
+        </button>
+        <button class="tool-btn" data-tool="scale" title="Set Scale">
+          <i data-lucide="ruler"></i>
+          <span>Set Scale</span>
+        </button>
+      </aside>
+
+      <!-- Main Canvas Area -->
+      <main class="canvas-area">
+        <div id="workspaceEmptyState" class="workspace-empty-state" style="display: none;">
+          <div id="workspaceDropzone" class="dropzone-container"
+            style="background: transparent; border: none; padding: 0;">
+            <div class="dropzone-icon"></div>
+            <div class="dropzone-text">
+              <p>Drop your file here or click to <span>upload floor plan.</span></p>
+              <small>Please upload a floor plan to start planning in this workspace.</small>
+            </div>
+            <input type="file" id="workspaceFileInput" hidden accept="image/*">
+          </div>
+        </div>
+        <div id="scaleBanner" class="scale-banner glass-panel" style="display: none;">
+          <div class="banner-content">
+            <i data-lucide="info"></i>
+            <span>Draw a line over a known distance (e.g., a door or wall) to set the scale.</span>
+          </div>
+          <button class="icon-btn" id="closeScaleBanner"><i data-lucide="x"></i></button>
+        </div>
+        <div class="canvas-header">
+          <!-- Wall type selector removed in favor of sidebar panel -->
+        </div>
+
+        <!-- Draw Walls Side Panel -->
+        <div id="drawWallsPanel" class="draw-walls-panel glass-panel" style="display: none;">
+          <div class="panel-header">
+            <h3>Draw Walls</h3>
+            <button class="icon-btn" id="closeWallPanel"><i data-lucide="x"></i></button>
+          </div>
+          <div class="panel-content">
+            <div id="wallListContainer"></div>
+          </div>
+          <div class="panel-footer" style="display: flex; gap: 8px; align-items: center;">
+            <button class="primary-btn" id="btnAutoTraceWalls" style="flex:1; display: flex; align-items: center; justify-content: center; gap: 6px; font-size: 0.8rem;">
+              <i data-lucide="scan-line" style="width:14px; height:14px;"></i> Auto Trace
+            </button>
+            <button class="secondary-action" id="btnApplyToAllWalls" title="Apply selected type to all existing walls" style="font-size: 0.75rem; padding: 6px 8px; white-space: nowrap;">
+               Apply to All
+            </button>
+            <button class="edit-link-btn" id="btnEditWallTypes" style="margin-left: 4px;"><i data-lucide="edit-3"></i></button>
+          </div>
+        </div>
+
+        <!-- Place Devices Side Panel -->
+        <div id="placeDevicesPanel" class="draw-walls-panel glass-panel" style="display: none;">
+          <div class="panel-header">
+            <h3>Place Devices</h3>
+            <button class="icon-btn" id="closeDevicePanel"><i data-lucide="x"></i></button>
+          </div>
+          <div class="ap-placement-tabs">
+            <button class="active" data-ap-tab="manual">Manual</button>
+            <button data-ap-tab="auto">Auto Placement</button>
+          </div>
+          <div class="panel-content">
+            <div id="manualPlacementTab" class="ap-placement-tab-panel">
+              <div id="deviceListContainer"></div>
+            </div>
+            <div id="autoPlacementTab" class="ap-placement-tab-panel" style="display: none;">
+              <div class="auto-placement-section">
+                <div class="auto-placement-heading">
+                  <strong>Room Areas</strong>
+                  <span id="autoRoomsCount">0 detected</span>
+                </div>
+                <div class="auto-room-controls">
+                  <button id="btnToggleRoomsOverlay" title="Show/Hide Rooms">Hide Overlay</button>
+                  <button id="btnClearRooms" title="Clear Rooms">Clear Rooms</button>
+                </div>
+                <button class="primary-btn auto-placement-action" id="btnAutoDetectRooms">
+                  <i data-lucide="layout-panel-left"></i>
+                  Auto Detect Rooms
+                </button>
+                <div id="autoRoomsList" class="auto-rooms-list"></div>
+              </div>
+              <div class="auto-placement-section">
+                <div class="auto-placement-heading">
+                  <strong>AP Placement</strong>
+                  <span id="autoPlacementStatus">Rooms required</span>
+                </div>
+                <button class="primary-btn auto-placement-action" id="btnRunRlPpoPlacement" style="background-color: #8b5cf6;">
+                  <i data-lucide="brain"></i>
+                  Smart AP Placement
+                </button>
+                <label style="display:flex; align-items:center; gap:6px; margin-top:8px; font-size:12px; cursor:pointer;">
+                  <input type="checkbox" id="chkRlAgentPlacement" checked>
+                  RL agent only (no auto-added APs)
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="panel-footer" id="devicePanelFooter">
+            <button class="edit-link-btn" id="btnEditDeviceTypes"><i data-lucide="edit-3"></i> Edit</button>
+          </div>
+        </div>
+
+        <div class="canvas-wrapper" id="canvasWrapper">
+          <!-- Heatmap Image Overlay -->
+          <img id="heatmapImage" src="" alt="Heatmap" style="display: none;">
+          <!-- Drawing Canvas -->
+          <canvas id="floorCanvas"></canvas>
+
+          <div id="smartPlacementThinking" class="smart-placement-thinking" aria-live="polite" aria-hidden="true">
+            <div class="smart-thinking-panel">
+              <div class="smart-thinking-visual" aria-hidden="true">
+                <div class="smart-thinking-grid"></div>
+                <div class="smart-thinking-scan"></div>
+                <span class="smart-candidate candidate-1"></span>
+                <span class="smart-candidate candidate-2"></span>
+                <span class="smart-candidate candidate-3"></span>
+                <span class="smart-candidate candidate-4"></span>
+                <span class="smart-candidate candidate-5"></span>
+                <span class="smart-candidate candidate-6"></span>
+                <span class="smart-agent-node">
+                  <i data-lucide="brain-circuit"></i>
+                </span>
+              </div>
+              <div class="smart-thinking-copy">
+                <div class="smart-thinking-heading">
+                  <span class="smart-thinking-pulse"></span>
+                  <strong>Smart AP agent is thinking</strong>
+                </div>
+                <span id="smartThinkingStatus">Reading rooms and service areas...</span>
+                <div class="smart-thinking-progress">
+                  <span id="smartThinkingProgress"></span>
+                </div>
+                <small id="smartThinkingDetail">Preparing candidate AP positions</small>
+              </div>
+            </div>
+          </div>
+
+          <div id="floatingToolbar" class="floating-toolbar" style="display: none;">
+            <button id="btnCopyWall" title="Copy Wall"><i data-lucide="copy"></i></button>
+            <div class="separator"></div>
+            <button id="btnReplaceWall" title="Change Material"><i data-lucide="brick-wall"></i></button>
+            <div class="separator"></div>
+            <button id="btnDeleteWall" class="delete" title="Delete Wall"><i data-lucide="trash-2"></i></button>
+          </div>
+
+          
+          <div class="legend glass-panel">
+            <div class="legend-header">
+              <span class="legend-label" id="legendTopLabel">Good</span>
+            </div>
+            <div class="color-scale" id="legendColorScale">
+              <div class="scale-bar"></div>
+              <div class="scale-hover-marker" id="legendHoverMarker" style="display: none;">
+                <span id="legendHoverValue">-</span>
+              </div>
+              <div class="scale-ticks" id="legendScaleTicks">
+                <span id="legendTickGood">-60</span>
+                <span id="legendTickMid">-75</span>
+                <span id="legendTickPoor">-85</span>
+              </div>
+            </div>
+            <div class="legend-footer">
+              <span class="legend-label" id="legendBottomLabel">Poor<br><small>dBm</small></span>
+              <button class="legend-refresh-btn" id="btnRefreshHeatmap" title="Refresh Heatmap">
+                <i data-lucide="refresh-cw" class="refresh-icon"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Controls -->
+        <div class="canvas-footer">
+          <div class="view-controls glass-panel">
+            <button class="tool-btn active" id="btnSelect" data-tool="select" title="Select / Edit"><i data-lucide="mouse-pointer-2"></i></button>
+            <button class="tool-btn" id="btnPan" data-tool="pan" title="Pan"><i data-lucide="hand"></i></button>
+            <div class="divider"></div>
+            <button id="btnZoomIn" title="Zoom In"><i data-lucide="zoom-in"></i></button>
+            <button id="btnZoomOut" title="Zoom Out"><i data-lucide="zoom-out"></i></button>
+            <button id="btnFit" title="Fit to Screen"><i data-lucide="maximize"></i></button>
+            <div class="divider"></div>
+            <button id="btnUndo" title="Undo"><i data-lucide="undo"></i></button>
+            <button id="btnRedo" title="Redo"><i data-lucide="redo"></i></button>
+          </div>
+
+          <div class="frequency-selector glass-panel" id="frequencySelector">
+            <button class="js-frequency-button active" data-frequency="2.4">2.4 GHz</button>
+            <button class="js-frequency-button" data-frequency="5">5 GHz</button>
+          </div>
+
+          <div class="status-bar">
+            <span class="editable-status" id="btnEditFloorHeight">Floor Height <strong id="floorHeightText">3m</strong></span>
+            <div class="divider"></div>
+            <span>Scale <strong id="currentScaleText">1m: 30.7px</strong></span>
+            <div class="divider"></div>
+            <span class="editable-status" id="btnEditIconSize">Icon Size <strong id="iconSizeText">100%</strong></span>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <div id="deviceListModal" class="modal-overlay" style="display: none;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Device List</h3>
+        <button id="closeDeviceList" class="icon-btn"><i data-lucide="x"></i></button>
+      </div>
+      <div class="modal-body">
+        <table id="apTable">
+          <thead>
+            <tr>
+              <th>Vendor & Model</th>
+              <th>X (m)</th>
+              <th>Y (m)</th>
+              <th>Power (dBm)</th>
+              <th>Antenna Gain</th>
+              <th>Channel</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="apTableBody">
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="editWallModal" class="modal-overlay" style="display: none;">
+    <div class="modal-content" style="max-width: 900px;">
+      <div class="modal-header">
+        <h3>Edit Wall Type</h3>
+        <button id="closeEditWallModal" class="icon-btn"><i data-lucide="x"></i></button>
+      </div>
+      <div class="modal-body edit-wall-layout">
+        <div class="edit-wall-sidebar">
+          <div id="editWallList"></div>
+          <button class="add-wall-type-btn">+ Add Wall Type</button>
+        </div>
+        <div class="edit-wall-form">
+          <div class="form-grid">
+            <div class="form-group full">
+              <label>* Wall Name</label>
+              <input type="text" id="editWallName" placeholder="Enter a wall name">
+            </div>
+            <div class="form-group">
+              <label>* Thickness (mm)</label>
+              <input type="number" id="editWallThickness">
+            </div>
+            <div class="form-group">
+              <label>* Material</label>
+              <select id="editWallMaterial">
+                <option value="thin">Thin Wall</option>
+                <option value="medium">Medium Wall</option>
+                <option value="thick">Thick Wall</option>
+                <option value="concrete">Concrete</option>
+                <option value="metal">Metal</option>
+                <option value="brick">Brick</option>
+                <option value="wood">Wood</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>* Attenuation 2.4 GHz (dB)</label>
+              <input type="number" id="editWallDb24">
+            </div>
+            <div class="form-group">
+              <label>* Attenuation 5 GHz (dB)</label>
+              <input type="number" id="editWallDb5">
+            </div>
+            <div class="form-group">
+              <label>* Attenuation 6 GHz (dB)</label>
+              <input type="number" id="editWallDb6">
+            </div>
+          </div>
+          <div class="form-actions">
+            <button id="btnDeleteWallType" class="danger-btn">Delete</button>
+            <button id="btnSaveWallType" class="primary-btn">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="editDeviceModal" class="modal-overlay" style="display: none;">
+    <div class="modal-content" style="max-width: 960px;">
+      <div class="modal-header">
+        <h3>Edit Device Profile</h3>
+        <button id="closeEditDeviceModal" class="icon-btn"><i data-lucide="x"></i></button>
+      </div>
+      <div class="modal-body edit-wall-layout">
+        <div class="edit-wall-sidebar">
+          <div id="editDeviceList"></div>
+        </div>
+        <div class="edit-wall-form">
+          <div class="form-grid">
+            <div class="form-group">
+              <label>* Vendor</label>
+              <input type="text" id="editDeviceVendor">
+            </div>
+            <div class="form-group">
+              <label>* Model</label>
+              <input type="text" id="editDeviceModel">
+            </div>
+            <div class="form-group">
+              <label>* Gain 2.4 GHz (dBi)</label>
+              <input type="number" step="0.1" id="editDeviceGain24">
+            </div>
+            <div class="form-group">
+              <label>* Gain 5 GHz (dBi)</label>
+              <input type="number" step="0.1" id="editDeviceGain5">
+            </div>
+            <div class="form-group">
+              <label>* Max TX Power (dBm)</label>
+              <input type="number" step="0.1" id="editDeviceMaxPower">
+            </div>
+            <div class="form-group">
+              <label>* Default Sim TX 2.4 GHz (dBm)</label>
+              <input type="number" step="0.1" id="editDeviceDefaultPower24">
+            </div>
+            <div class="form-group">
+              <label>* Default Sim TX 5 GHz (dBm)</label>
+              <input type="number" step="0.1" id="editDeviceDefaultPower5">
+            </div>
+            <div class="form-group">
+              <label>* Wireless Rate 2.4 GHz (Mbps)</label>
+              <input type="number" id="editDeviceRate24">
+            </div>
+            <div class="form-group">
+              <label>* Wireless Rate 5 GHz (Mbps)</label>
+              <input type="number" id="editDeviceRate5">
+            </div>
+            <div class="form-group">
+              <label>* Recommended Clients</label>
+              <input type="number" id="editDeviceClients">
+            </div>
+            <div class="form-group full">
+              <label>* Standards</label>
+              <input type="text" id="editDeviceStandards">
+            </div>
+          </div>
+          <div class="form-actions">
+            <button id="btnSaveDeviceType" class="primary-btn">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="deviceDetailsModal" class="modal-overlay" style="display: none;">
+    <div class="modal-content" style="max-width: 700px;">
+      <div class="modal-header">
+        <h3>Device Details</h3>
+        <button id="closeDeviceDetails" class="icon-btn"><i data-lucide="x"></i></button>
+      </div>
+      <div class="modal-body" id="deviceDetailsContent">
+        <!-- Content injected by main.js -->
+      </div>
+    </div>
+  </div>
+
+  <div id="editRoomModal" class="modal-overlay" style="display: none;">
+    <div class="modal-content" style="max-width: 620px;">
+      <div class="modal-header">
+        <h3>Edit Room</h3>
+        <button id="closeEditRoomModal" class="icon-btn"><i data-lucide="x"></i></button>
+      </div>
+      <div class="modal-body" style="padding: 20px;">
+        <div class="form-grid">
+          <div class="form-group">
+            <label>Room Name</label>
+            <input type="text" id="editRoomName">
+          </div>
+          <div class="form-group">
+            <label>Room Type</label>
+            <select id="editRoomType">
+              <option value="office">Office</option>
+              <option value="meeting">Meeting Room</option>
+              <option value="classroom">Classroom</option>
+              <option value="corridor">Corridor</option>
+              <option value="lobby">Lobby</option>
+              <option value="server">Server Room</option>
+              <option value="stairs">Stairs</option>
+              <option value="storage">Storage</option>
+              <option value="restroom">Restroom</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Priority</label>
+            <select id="editRoomPriority">
+              <option value="3">High</option>
+              <option value="2">Medium</option>
+              <option value="1">Low</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Wireless Clients</label>
+            <input type="number" id="editRoomClients" min="0" max="1000" step="1" placeholder="Enter number of wireless clients">
+            <div class="client-presets">
+              <button type="button" data-clients="0">Empty / No Service</button>
+              <button type="button" data-clients="30">30</button>
+              <button type="button" data-clients="50">50</button>
+              <button type="button" data-clients="100">100</button>
+              <button type="button" data-clients="200">200</button>
+              <button type="button" data-clients="300">300</button>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Coverage Target (dBm)</label>
+            <input type="number" id="editRoomCoverageTarget" min="-90" max="-40" step="1">
+          </div>
+          <div class="form-group">
+            <label>Area</label>
+            <input type="text" id="editRoomArea" disabled>
+          </div>
+          <div class="form-group full">
+            <label class="checkbox-field">
+              <input type="checkbox" id="editRoomExcluded">
+              Exclude this room from automatic AP placement
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer" style="padding: 16px; display: flex; justify-content: space-between; gap: 12px; border-top: 1px solid var(--border-color);">
+        <button id="btnDeleteRoom" class="danger-btn">Delete Room</button>
+        <div style="display: flex; gap: 12px;">
+          <button id="btnCancelEditRoom" class="secondary-btn">Cancel</button>
+          <button id="btnSaveRoom" class="primary-btn">Save Room</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="alternativePlansModal" class="modal-overlay" style="display: none;">
+    <div class="modal-content alternative-plans-modal">
+      <div class="modal-header">
+        <div>
+          <h3>Compare AP Placement Plans</h3>
+          <span class="alternative-modal-subtitle">Select a plan to preview it directly on the floor map.</span>
+        </div>
+        <button id="closeAlternativePlansModal" class="icon-btn" title="Close comparison"><i data-lucide="x"></i></button>
+      </div>
+      <div class="modal-body alternative-plans-body">
+        <div id="alternativePlansList" class="alternative-plans-list"></div>
+        <div id="alternativePlanDetails" class="alternative-plan-details"></div>
+      </div>
+      <div class="modal-footer alternative-plans-footer">
+        <span id="alternativePreviewStatus">Previewing selected best plan</span>
+        <div>
+          <button id="btnCancelAlternativePlan" class="secondary-btn">Keep Best Plan</button>
+          <button id="btnApplyAlternativePlan" class="primary-btn">Apply Previewed Plan</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./main.js?v=20260607_v9"></script>
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+  </script>
+  <div id="genericPromptModal" class="modal-overlay" style="display: none;">
+    <div class="modal-content" style="max-width: 400px;">
+      <div class="modal-header">
+        <h3 id="promptTitle">Input Required</h3>
+        <button id="closePrompt" class="icon-btn"><i data-lucide="x"></i></button>
+      </div>
+      <div class="modal-body" style="padding: 20px;">
+        <p id="promptMessage" style="margin-bottom: 16px; color: var(--text-secondary);"></p>
+        <input type="text" id="promptInput" class="modal-input" style="width: 100%; padding: 10px; border: 1px solid var(--border-color); border-radius: 6px;">
+      </div>
+      <div class="modal-footer" style="padding: 16px; display: flex; justify-content: flex-end; gap: 12px; border-top: 1px solid var(--border-color);">
+        <button id="btnPromptCancel" class="secondary-btn">Cancel</button>
+        <button id="btnPromptOk" class="primary-btn">OK</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

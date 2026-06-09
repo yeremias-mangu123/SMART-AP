@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "name": "ITU-R P.1238-13",
+      "url": "https://www.itu.int/rec/R-REC-P.1238/en",
+      "use": "Indoor distance-loss coefficient and statistical shadow margin"
+    },
+    {
+      "name": "NISTIR 6055 - Electromagnetic Signal Attenuation in Construction Materials",
+      "url": "https://doi.org/10.6028/NIST.IR.6055",
+      "use": "Measured construction-material attenuation from 0.5-2 GHz and 3-8 GHz"
+    }
+  ],
+  "propagation_profiles": {
+    "office": {
+      "2.4": {"distance_loss_coefficient": 30.0, "shadow_margin_db": 7.0, "wall_loss_multiplier": 1.0},
+      "5": {"distance_loss_coefficient": 31.0, "shadow_margin_db": 8.0, "wall_loss_multiplier": 1.0},
+      "6": {"distance_loss_coefficient": 32.0, "shadow_margin_db": 8.5, "wall_loss_multiplier": 1.0}
+    },
+    "dense_office": {
+      "2.4": {"distance_loss_coefficient": 33.0, "shadow_margin_db": 9.0, "wall_loss_multiplier": 1.08},
+      "5": {"distance_loss_coefficient": 35.0, "shadow_margin_db": 10.0, "wall_loss_multiplier": 1.12},
+      "6": {"distance_loss_coefficient": 36.0, "shadow_margin_db": 10.5, "wall_loss_multiplier": 1.15}
+    }
+  },
+  "wall_profiles": [
+    {"material_id": "gypsum", "material_name": "Gypsum board", "attenuation_db": {"2.4": 3.0, "5": 4.0, "6": 5.0}, "thickness_mm": 8, "jitter_ratio": 0.25},
+    {"material_id": "foam", "material_name": "Foam materials", "attenuation_db": {"2.4": 3.0, "5": 4.0, "6": 5.0}, "thickness_mm": 8, "jitter_ratio": 0.3},
+    {"material_id": "hollow_wood", "material_name": "Hollow wood", "attenuation_db": {"2.4": 2.0, "5": 3.0, "6": 4.0}, "thickness_mm": 20, "jitter_ratio": 0.3},
+    {"material_id": "common_wood_door", "material_name": "Common wooden door", "attenuation_db": {"2.4": 3.0, "5": 4.0, "6": 5.0}, "thickness_mm": 40, "jitter_ratio": 0.3},
+    {"material_id": "solid_wood_door", "material_name": "Solid wood door", "attenuation_db": {"2.4": 10.0, "5": 15.0, "6": 17.0}, "thickness_mm": 40, "jitter_ratio": 0.25},
+    {"material_id": "common_glass", "material_name": "Common glass", "attenuation_db": {"2.4": 4.0, "5": 7.0, "6": 8.0}, "thickness_mm": 8, "jitter_ratio": 0.35},
+    {"material_id": "thick_glass", "material_name": "Thick glass", "attenuation_db": {"2.4": 8.0, "5": 10.0, "6": 12.0}, "thickness_mm": 12, "jitter_ratio": 0.3},
+    {"material_id": "common_brick", "material_name": "Common brick wall", "attenuation_db": {"2.4": 10.0, "5": 15.0, "6": 17.0}, "thickness_mm": 120, "jitter_ratio": 0.25},
+    {"material_id": "thick_brick", "material_name": "Thick brick wall", "attenuation_db": {"2.4": 15.0, "5": 25.0, "6": 28.0}, "thickness_mm": 240, "jitter_ratio": 0.25},
+    {"material_id": "concrete", "material_name": "Concrete", "attenuation_db": {"2.4": 25.0, "5": 30.0, "6": 33.0}, "thickness_mm": 240, "jitter_ratio": 0.25},
+    {"material_id": "armored_glass", "material_name": "Armored glass", "attenuation_db": {"2.4": 25.0, "5": 35.0, "6": 40.0}, "thickness_mm": 30, "jitter_ratio": 0.25},
+    {"material_id": "load_bearing_column", "material_name": "Load-bearing column", "attenuation_db": {"2.4": 25.0, "5": 30.0, "6": 33.0}, "thickness_mm": 500, "jitter_ratio": 0.25},
+    {"material_id": "shutter_door", "material_name": "Shutter door", "attenuation_db": {"2.4": 15.0, "5": 20.0, "6": 23.0}, "thickness_mm": 10, "jitter_ratio": 0.3},
+    {"material_id": "color_steel_panel", "material_name": "Color steel sandwich panel", "attenuation_db": {"2.4": 30.0, "5": 35.0, "6": 40.0}, "thickness_mm": 80, "jitter_ratio": 0.25},
+    {"material_id": "elevator", "material_name": "Elevator", "attenuation_db": {"2.4": 30.0, "5": 35.0, "6": 40.0}, "thickness_mm": 80, "jitter_ratio": 0.2},
+    {"material_id": "shelf", "material_name": "Shelf", "attenuation_db": {"2.4": 15.0, "5": 20.0, "6": 23.0}, "thickness_mm": 80, "jitter_ratio": 0.35}
+  ]
+}

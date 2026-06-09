@@ -1,0 +1,28 @@
+{
+  "train_count": 55,
+  "holdout_count": 43,
+  "public_floorplan_source": "CubiCasa5K importer is available for adding CC BY-NC 4.0 subsets",
+  "rf_sources": [
+    "ITU-R P.1238-13",
+    "NISTIR 6055"
+  ],
+  "material_profiles": [
+    "gypsum",
+    "foam",
+    "hollow_wood",
+    "common_wood_door",
+    "solid_wood_door",
+    "common_glass",
+    "thick_glass",
+    "common_brick",
+    "thick_brick",
+    "concrete",
+    "armored_glass",
+    "load_bearing_column",
+    "shutter_door",
+    "color_steel_panel",
+    "elevator",
+    "shelf"
+  ],
+  "observation_version": 4
+}

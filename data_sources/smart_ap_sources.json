@@ -1,0 +1,23 @@
+{
+  "floorplans": [
+    {
+      "name": "CubiCasa5K",
+      "url": "https://zenodo.org/records/2613548",
+      "repository": "https://github.com/CubiCasa/CubiCasa5k",
+      "license": "CC BY-NC 4.0",
+      "size_note": "Official archive is approximately 5.2 GB; import a representative subset."
+    }
+  ],
+  "rf_measurements": [
+    {
+      "name": "ITU-R P.1238-13",
+      "url": "https://www.itu.int/rec/R-REC-P.1238/en",
+      "role": "Indoor propagation model"
+    },
+    {
+      "name": "NISTIR 6055",
+      "url": "https://doi.org/10.6028/NIST.IR.6055",
+      "role": "Measured construction-material attenuation"
+    }
+  ]
+}

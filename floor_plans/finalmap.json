@@ -1,0 +1,203 @@
+{
+  "building": {
+    "width": 40.0,
+    "height": 3.0,
+    "length": 50.0,
+    "resolution": 0.2
+  },
+  "target_coverage": 0.9,
+  "propagation_model": "fast_ray_tracing",
+  "placement_strategy": "material_aware",
+  "quick_mode": false,
+  "ap_mode": "manual",
+  "scale": {
+    "pixel_to_meter": 0.0684257329142735
+  },
+  "rois": [
+    {
+      "points": [
+        [
+          16.01162150194,
+          29.55991661896615
+        ],
+        [
+          35.44452964959367,
+          29.696768084794694
+        ],
+        [
+          35.3761039166794,
+          21.622531600910424
+        ],
+        [
+          48.71912183496273,
+          21.6909573338247
+        ],
+        [
+          48.71912183496273,
+          33.66546059382256
+        ],
+        [
+          16.08004723485427,
+          33.66546059382256
+        ],
+        [
+          16.08004723485427,
+          29.76519381770897
+        ]
+      ],
+      "lengths_m": [
+        19.433390013037968,
+        8.074526418224954,
+        13.343193367727041,
+        11.974503259997862,
+        32.63907460010846,
+        3.900266776113589,
+        0.21638116657545525
+      ]
+    }
+  ],
+  "boundaries": [],
+  "regions": [
+    {
+      "name": "room1",
+      "type": "office",
+      "material": "brick",
+      "thickness_m": 0.2,
+      "room": true,
+      "shape": "rectangle",
+      "coords": [
+        36.06036124582213,
+        22.443640395881705,
+        45.98209251839179,
+        26.82288730239521
+      ]
+    },
+    {
+      "name": "",
+      "type": "office",
+      "material": "brick",
+      "thickness_m": 0.2,
+      "room": true,
+      "shape": "rectangle",
+      "coords": [
+        16.42217589942564,
+        30.38102541393743,
+        22.375214662967434,
+        32.84435179885128
+      ]
+    },
+    {
+      "name": "fg",
+      "type": "office",
+      "material": "brick",
+      "thickness_m": 0.2,
+      "room": true,
+      "shape": "rectangle",
+      "coords": [
+        31.475837140565808,
+        30.654728345594524,
+        35.44452964959367,
+        32.775926065937
+      ]
+    },
+    {
+      "name": "",
+      "type": "office",
+      "material": "brick",
+      "thickness_m": 0.2,
+      "room": true,
+      "shape": "rectangle",
+      "coords": [
+        47.55588437542008,
+        26.754461569480934,
+        47.7611615741629,
+        32.50222313427991
+      ]
+    },
+    {
+      "name": "",
+      "type": "office",
+      "material": "brick",
+      "thickness_m": 0.2,
+      "room": true,
+      "shape": "rectangle",
+      "coords": [
+        38.66053909656453,
+        28.122976227766404,
+        43.24506320182085,
+        31.88639153805145
+      ]
+    },
+    {
+      "name": "",
+      "type": "office",
+      "material": "brick",
+      "thickness_m": 0.2,
+      "room": true,
+      "shape": "circle",
+      "coords": [
+        47.14532997793444,
+        23.606877855424354,
+        0.5642530486317051
+      ]
+    }
+  ],
+  "materials": [],
+  "aps": [
+    {
+      "x": 38.18155896616461,
+      "y": 25.0438182466241,
+      "z": 2.7,
+      "tx_power": 20.0,
+      "frequency": 2.4,
+      "wifi_standard": "802.11n",
+      "coverage": 20.0,
+      "size": 0.2,
+      "max_height": 2.7
+    },
+    {
+      "x": 19.501333880567945,
+      "y": 31.7495400722229,
+      "z": 2.7,
+      "tx_power": 20.0,
+      "frequency": 2.4,
+      "wifi_standard": "802.11n",
+      "coverage": 20.0,
+      "size": 0.2,
+      "max_height": 2.7
+    },
+    {
+      "x": 43.99774626387786,
+      "y": 24.770115314967004,
+      "z": 2.7,
+      "tx_power": 20.0,
+      "frequency": 2.4,
+      "wifi_standard": "802.11n",
+      "coverage": 20.0,
+      "size": 0.2,
+      "max_height": 2.7
+    },
+    {
+      "x": 40.85016254982128,
+      "y": 30.038896749366064,
+      "z": 2.7,
+      "tx_power": 20.0,
+      "frequency": 2.4,
+      "wifi_standard": "802.11n",
+      "coverage": 20.0,
+      "size": 0.2,
+      "max_height": 2.7
+    },
+    {
+      "x": 33.66546059382256,
+      "y": 32.02324300388,
+      "z": 2.7,
+      "tx_power": 20.0,
+      "frequency": 2.4,
+      "wifi_standard": "802.11n",
+      "coverage": 20.0,
+      "size": 0.2,
+      "max_height": 2.7
+    }
+  ]
+}

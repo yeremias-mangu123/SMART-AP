@@ -1,0 +1,108 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.env
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+data/
+visualizations/
+results/
+.changes/
+*.csv
+*.joblib
+*.png
+!floor_plans/*.png  # Keep floor plan images
+!floor_plans/*.jpg
+
+# Large artifacts (model weights, training outputs, scratch) - too big for GitHub
+src/wall_detector/weights/
+*.pth
+*.pt
+training_runs/
+scratch/
+
+# Databases and logs
+*.db
+*.log
+
+# Web build / deps
+web/node_modules/
+web/dist/
+
+# Kiro specs and personal trial floor plans (not part of the shipped pipeline)
+.kiro/
+floor_plans/telmat5*.json
+export_telmat5.py
+
+# Generated files
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# Runs directory handling - exclude all runs except run_last
+runs/run_*/
+!runs/run_last/
+!runs/run_last/data/
+!runs/run_last/plots/
+!runs/run_last/**/*.png
+!runs/run_last/**/*.csv
+!runs/run_last/**/*.json
+
+# Models directory - exclude generated model files
+models/*
+!models/__init__.py
+!src/models/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node.js (if used)
+node_modules/
+package-lock.json
+
+# Test coverage
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_templates/
